@@ -1,0 +1,531 @@
+# CSID food lists — disaccharide-free elimination phase baseline
+# Source: https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
+# Individual tolerance varies; use reintroduction testing to personalise.
+
+meta:
+  source: "Ideal Nutrition — CSID: How To Manage Sucrase-Isomaltase Deficiency"
+  source_url: "https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/"
+  phase: "disaccharide-free elimination (Step 1)"
+  note: >
+    These lists reflect a strict elimination baseline. Many adults tolerate some
+    sucrose, maltose, and starch after reintroduction testing (Steps 2–3).
+
+food_groups:
+  - id: fats
+    name: Fats
+  - id: dairy
+    name: Milk and milk products
+  - id: fruits
+    name: Fruits
+  - id: vegetables
+    name: Vegetables
+  - id: grains
+    name: Grains
+  - id: meat
+    name: Meat and meat substitutes
+  - id: nuts_seeds
+    name: Nuts and seeds
+  - id: sugars
+    name: Sugars and sweeteners
+  - id: other
+    name: Other
+
+foods:
+  # --- Fats (good) ---
+  - name: Canola oil
+    group: fats
+    status: good
+  - name: Corn oil
+    group: fats
+    status: good
+  - name: Flaxseed oil
+    group: fats
+    status: good
+  - name: Olive oil
+    group: fats
+    status: good
+  - name: Safflower oil
+    group: fats
+    status: good
+  - name: Sunflower oil
+    group: fats
+    status: good
+  - name: Margarine or diet spread (no whey or milk solids)
+    group: fats
+    status: good
+  - name: Lard
+    group: fats
+    status: good
+  - name: Meat drippings
+    group: fats
+    status: good
+
+  # --- Fats (bad) ---
+  - name: Butter
+    group: fats
+    status: bad
+    concerns: [lactose]
+  - name: Margarine with whey or milk solids
+    group: fats
+    status: bad
+    concerns: [lactose]
+
+  # --- Dairy (good) ---
+  - name: Hard cheese (e.g. cheddar)
+    group: dairy
+    status: good
+    notes: Low lactose; often tolerated if lactose is not an issue
+  - name: Unsweetened soy milk
+    group: dairy
+    status: good
+  - name: Unsweetened nut milk
+    group: dairy
+    status: good
+  - name: Unsweetened lactose-free milk
+    group: dairy
+    status: good
+
+  # --- Dairy (bad) ---
+  - name: Milk and milk products (general)
+    group: dairy
+    status: bad
+    concerns: [lactose, sucrose]
+    notes: Avoid except hard cheese and unsweetened lactose-free or plant milks listed above
+
+  # --- Fruits (good) ---
+  - name: Blackberry
+    group: fruits
+    status: good
+  - name: Blueberry
+    group: fruits
+    status: good
+  - name: Cranberry
+    group: fruits
+    status: good
+  - name: Gooseberry
+    group: fruits
+    status: good
+  - name: Loganberry
+    group: fruits
+    status: good
+  - name: Cherry
+    group: fruits
+    status: good
+  - name: Damson plum
+    group: fruits
+    status: good
+  - name: Fig
+    group: fruits
+    status: good
+  - name: Guava
+    group: fruits
+    status: good
+  - name: Grape
+    group: fruits
+    status: good
+  - name: Kiwi fruit
+    group: fruits
+    status: good
+  - name: Lemon
+    group: fruits
+    status: good
+  - name: Lime
+    group: fruits
+    status: good
+  - name: Passion fruit
+    group: fruits
+    status: good
+
+  # --- Fruits (bad) ---
+  - name: Apple
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Apricot
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Banana
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Date
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Grapefruit
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Mango
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Melon
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Papaya
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Peach
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Pear
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Pineapple
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Raspberry
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+  - name: Strawberry
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+
+  # --- Vegetables (good) ---
+  - name: Avocado
+    group: vegetables
+    status: good
+  - name: Celery
+    group: vegetables
+    status: good
+  - name: Chives
+    group: vegetables
+    status: good
+  - name: Cucumber
+    group: vegetables
+    status: good
+  - name: Garlic
+    group: vegetables
+    status: good
+  - name: Green onion
+    group: vegetables
+    status: good
+  - name: Kale
+    group: vegetables
+    status: good
+  - name: Lettuce
+    group: vegetables
+    status: good
+  - name: Mushroom
+    group: vegetables
+    status: good
+  - name: Parsley
+    group: vegetables
+    status: good
+  - name: Parsnip
+    group: vegetables
+    status: good
+  - name: Bell pepper (green and red)
+    group: vegetables
+    status: good
+  - name: Radish
+    group: vegetables
+    status: good
+  - name: Spinach
+    group: vegetables
+    status: good
+  - name: Swiss chard
+    group: vegetables
+    status: good
+  - name: Tomato
+    group: vegetables
+    status: good
+  - name: Turnip
+    group: vegetables
+    status: good
+  - name: Watercress
+    group: vegetables
+    status: good
+  - name: Broccoli
+    group: vegetables
+    status: good
+  - name: Cabbage
+    group: vegetables
+    status: good
+  - name: Brussels sprouts
+    group: vegetables
+    status: good
+  - name: Eggplant
+    group: vegetables
+    status: good
+  - name: Asian greens (e.g. bok choy)
+    group: vegetables
+    status: good
+
+  # --- Vegetables (bad) ---
+  - name: Legumes (black beans, chickpeas, lentils, etc.)
+    group: vegetables
+    status: bad
+    concerns: [maltose, starch]
+  - name: Potato (all types)
+    group: vegetables
+    status: bad
+    concerns: [maltose, starch]
+  - name: Squash (all types)
+    group: vegetables
+    status: bad
+    concerns: [maltose, starch]
+  - name: Carrot
+    group: vegetables
+    status: bad
+    concerns: [sucrose, starch]
+  - name: Beetroot
+    group: vegetables
+    status: bad
+    concerns: [sucrose, starch]
+  - name: Green peas
+    group: vegetables
+    status: bad
+    concerns: [maltose, starch]
+  - name: Corn
+    group: vegetables
+    status: bad
+    concerns: [maltose, starch]
+  - name: Pumpkin
+    group: vegetables
+    status: bad
+    concerns: [maltose, starch]
+  - name: Okra
+    group: vegetables
+    status: bad
+    concerns: [maltose, starch]
+
+  # --- Grains (bad — none allowed in elimination phase) ---
+  - name: Wheat
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Amaranth
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Barley
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Buckwheat
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Bulgur
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Corn (grain/flour)
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Couscous
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Millet
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Oats
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Quinoa
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Rice
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Rye
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Spelt
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Triticale
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: Grain flours (general)
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+
+  # --- Meat (good) ---
+  - name: Lamb
+    group: meat
+    status: good
+  - name: Beef
+    group: meat
+    status: good
+  - name: Pork
+    group: meat
+    status: good
+  - name: Wild game
+    group: meat
+    status: good
+  - name: Chicken
+    group: meat
+    status: good
+  - name: Duck
+    group: meat
+    status: good
+  - name: Turkey
+    group: meat
+    status: good
+  - name: Fish
+    group: meat
+    status: good
+  - name: Shellfish
+    group: meat
+    status: good
+  - name: Egg (plain)
+    group: meat
+    status: good
+  - name: Tofu
+    group: meat
+    status: good
+  - name: Tempeh
+    group: meat
+    status: good
+
+  # --- Meat (bad) ---
+  - name: Processed meat
+    group: meat
+    status: bad
+    concerns: [sucrose, starch]
+  - name: Breaded meat
+    group: meat
+    status: bad
+    concerns: [maltose, starch]
+  - name: Smoked meat
+    group: meat
+    status: bad
+  - name: Cured meat
+    group: meat
+    status: bad
+  - name: Canned corned beef
+    group: meat
+    status: bad
+  - name: Egg with added milk, flour, or sugar
+    group: meat
+    status: bad
+    concerns: [lactose, maltose, sucrose]
+  - name: Edamame
+    group: meat
+    status: bad
+    concerns: [maltose, starch]
+
+  # --- Nuts and seeds (bad in elimination phase) ---
+  - name: Almond
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+  - name: Brazil nut
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+  - name: Cashew
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+  - name: Hazelnut
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+  - name: Macadamia
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+  - name: Pecan
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+  - name: Pistachio
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+  - name: Pumpkin seeds
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+  - name: Sesame seeds
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+  - name: Sunflower seeds
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+  - name: Walnut
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+
+  # --- Sugars (good) ---
+  - name: Glucose
+    group: sugars
+    status: good
+  - name: Dextrose
+    group: sugars
+    status: good
+  - name: Fructose
+    group: sugars
+    status: good
+  - name: Levulose
+    group: sugars
+    status: good
+  - name: Honey
+    group: sugars
+    status: good
+    notes: Use in moderation
+  - name: Aspartame
+    group: sugars
+    status: good
+    notes: Lactose-free sugar substitute; moderation
+  - name: Cyclamate
+    group: sugars
+    status: good
+    notes: Lactose-free sugar substitute; moderation
+  - name: Saccharine
+    group: sugars
+    status: good
+    notes: Lactose-free sugar substitute; moderation
+
+  # --- Sugars (bad) ---
+  - name: Sucrose (table sugar)
+    group: sugars
+    status: bad
+    concerns: [sucrose]
+  - name: Lactose (milk sugar)
+    group: sugars
+    status: bad
+    concerns: [lactose]
+  - name: Maltose (grain sugar)
+    group: sugars
+    status: bad
+    concerns: [maltose]
+  - name: Foods with added sugars
+    group: sugars
+    status: bad
+    concerns: [sucrose]
+  - name: Syrups
+    group: sugars
+    status: bad
+    concerns: [sucrose, maltose]
+
+  # --- Other ---
+  - name: Spices and herbs
+    group: other
+    status: good
+    notes: Enjoy freely

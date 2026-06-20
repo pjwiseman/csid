@@ -1,0 +1,22 @@
+---
+description: zpwi-food scope, CSID context, and default food reference
+alwaysApply: true
+---
+
+# zpwi-food scope and references
+
+## Search scope
+
+Limit all codebase searches, file exploration, and grep to `/home/pwi/src/zpwi-food` and its subdirectories. Do not search sibling repos or parent paths unless the user explicitly asks.
+
+## Project context
+
+This project is for CSID (Congenital Sucrase-Isomaltase Deficiency): tracking and evaluating good vs bad foods for people managing sucrose, maltose, and starch tolerance.
+
+## Default reference
+
+When CSID, sucrase-isomaltase deficiency, nutritional management, or related food/diet context is needed, default to:
+
+https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
+
+A local copy may exist at `uploads/csid-how-to-manage-sucrase-isomaltase-deficiency-0.md` in the Cursor project uploads folder. Prefer the live URL when fetching; use the local copy when offline or for quick lookup.
