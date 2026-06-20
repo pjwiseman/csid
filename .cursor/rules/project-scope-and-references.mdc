@@ -1,13 +1,13 @@
 ---
-description: zpwi-food scope, CSID context, and default food reference
+description: zpwi-csid scope, CSID context, and default food reference
 alwaysApply: true
 ---
 
-# zpwi-food scope and references
+# zpwi-csid scope and references
 
 ## Search scope
 
-Limit all codebase searches, file exploration, and grep to `/home/pwi/src/zpwi-food` and its subdirectories. Do not search sibling repos or parent paths unless the user explicitly asks.
+Limit all codebase searches, file exploration, and grep to `/home/pwi/src/zpwi-csid` and its subdirectories. Do not search sibling repos or parent paths unless the user explicitly asks.
 
 ## Project context
 

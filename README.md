@@ -1,4 +1,4 @@
-# zpwi-food
+# zpwi-csid
 
 CSID (congenital sucrase-isomaltase deficiency) food tracking: good vs bad foods for managing sucrose, maltose, and starch tolerance.
 
