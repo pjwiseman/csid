@@ -20,3 +20,22 @@ When CSID, sucrase-isomaltase deficiency, nutritional management, or related foo
 https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
 
 A local copy may exist at `uploads/csid-how-to-manage-sucrase-isomaltase-deficiency-0.md` in the Cursor project uploads folder. Prefer the live URL when fetching; use the local copy when offline or for quick lookup.
+
+For tiered tolerance lists (most / some / few CSID patients) and food-composition guidance, also use [CSID Cares — Choosing Your Foods](https://www.csidcares.org/treatment/diet/). Local copy may exist at `uploads/diet-0.md`.
+
+## Researching food classifications
+
+Use Ideal Nutrition as the **primary baseline**. When a food is missing, ambiguous, or conflicts with the baseline, consult `meta.research_sources` in [data/foods.yaml](../data/foods.yaml) and cross-check before classifying.
+
+| Source | Best for |
+| --- | --- |
+| [Ideal Nutrition CSID guide](https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/) | Strict elimination baseline; reintroduction steps |
+| [CSID Cares — Choosing Your Foods](https://www.csidcares.org/treatment/diet/) | Tiered fruit/vegetable/dairy tolerance; food diary; composition tables |
+| [ANTHC CSID Store-Bought Food Guide (PDF)](https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf) | Usually vs least tolerated; label checks |
+| [ANTHC CSID Educational Booklet (PDF)](https://anthc.org/wp-content/uploads/2025/06/CSID-Educational-Booklet.pdf) | Sucrose/starch overview; tiered tolerance |
+| [CSID Made Simple — food list](https://csidmadesimple.com/csid-food-list/) | Vegetables/dairy by tolerance tier (most / some / few) |
+| [CSIDinfo.com dairy table](http://www.csidinfo.com/dairy.htm) | Grams of sucrose, starch, lactose per dairy serving |
+| [Leeds NHS — CSID dietary advice](https://www.leedsth.nhs.uk/patients/resources/dietary-advice-for-congenital-sucrose-isomaltase-deficiency/) | Clinical NHS guidance; starch substitutes |
+| [Jenna Volpe RDN — low sucrose list](https://wholeisticliving.com/2023/01/16/low-sucrose-foods-list/) | Dietitian low-sucrose vegetable list |
+
+**Workflow:** (1) Check Ideal Nutrition. (2) If unclear, search the sources above. (3) Record `sources` on the food entry in `foods.yaml` when classification relies on secondary references. (4) Note conflicts (e.g. Ideal Nutrition lists all squash as avoid; ANTHC and CSID Made Simple distinguish summer vs winter squash). (5) Do not assume good/bad without a cited source or explicit user instruction.

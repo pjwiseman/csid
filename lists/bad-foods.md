@@ -11,7 +11,8 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 
 ## Milk and milk products
 
-- All dairy **except** hard cheese and unsweetened lactose-free or plant milks listed in [good-foods.md](./good-foods.md)
+- All dairy **except** hard cheese, plain unsweetened Greek yoghurt, and unsweetened lactose-free or plant milks listed in [good-foods.md](./good-foods.md)
+- Flavoured yoghurt
 
 ## Fruits
 
@@ -22,16 +23,16 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 ## Vegetables
 
 - All legumes (black beans, chickpeas, lentils, etc.)
-- Potato (all types), squash (all types)
-- Carrot, beetroot, green peas, corn, pumpkin, okra
+- Potato (all types), winter squash (e.g. butternut, acorn, pumpkin)
+- Carrot, beetroot, green peas, corn, okra
 
 ## Grains
 
 **None** during elimination. Avoid all grain flours and:
 
 - Wheat, amaranth, barley, buckwheat, bulgur
-- Corn, couscous, millet, oats, quinoa
-- Rice, rye, spelt, triticale
+- Corn, couscous, millet, oats, rolled oats, quinoa
+- Rice, white rice, rye, spelt, triticale
 
 ## Meat and meat substitutes
 
@@ -56,10 +57,13 @@ All, including:
 
 ## Primary concerns by category
 
-| Category | Main disaccharides / issue |
-| --- | --- |
-| High-sucrose fruits | Sucrose |
-| Starchy vegetables & grains | Maltose, isomaltose, starch |
-| Dairy (most) | Lactose |
-| Nuts and seeds | Sucrose (reintroduce in testing) |
-| Added sugars & syrups | Sucrose, maltose |
+
+| Category                    | Main disaccharides / issue       |
+| --------------------------- | -------------------------------- |
+| High-sucrose fruits         | Sucrose                          |
+| Starchy vegetables & grains | Maltose, isomaltose, starch      |
+| Dairy (most)                | Lactose                          |
+| Nuts and seeds              | Sucrose (reintroduce in testing) |
+| Added sugars & syrups       | Sucrose, maltose                 |
+
+

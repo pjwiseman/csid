@@ -9,6 +9,31 @@ meta:
   note: >
     These lists reflect a strict elimination baseline. Many adults tolerate some
     sucrose, maltose, and starch after reintroduction testing (Steps 2–3).
+  research_sources:
+    - title: Ideal Nutrition — CSID management guide (primary baseline)
+      url: https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
+      use: Strict disaccharide-free elimination lists; reintroduction protocol
+    - title: CSID Cares — Choosing Your Foods (Sucraid manufacturer)
+      url: https://www.csidcares.org/treatment/diet/
+      use: Tiered fruit/vegetable/dairy tolerance (most / some / few); food diary guidance; links to food composition tables
+    - title: ANTHC CSID Store-Bought Food Guide (PDF)
+      url: https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf
+      use: Usually vs least tolerated foods; label-check tips; summer squash, cauliflower, plain yoghurt
+    - title: ANTHC CSID Educational Booklet (PDF)
+      url: https://anthc.org/wp-content/uploads/2025/06/CSID-Educational-Booklet.pdf
+      use: Sucrose/starch overview; tolerated food tiers; individual variation
+    - title: CSID Made Simple — food list
+      url: https://csidmadesimple.com/csid-food-list/
+      use: Vegetables/dairy tiered tolerance (most / some / few); summer squash and cauliflower
+    - title: CSIDinfo.com — dairy composition table
+      url: http://www.csidinfo.com/dairy.htm
+      use: Sucrose, starch, and lactose grams per serving; Greek yoghurt (unsweetened)
+    - title: Leeds Teaching Hospitals NHS Trust — CSID dietary advice
+      url: https://www.leedsth.nhs.uk/patients/resources/dietary-advice-for-congenital-sucrose-isomaltase-deficiency/
+      use: NHS clinical guidance; cauliflower/courgette substitutes; Greek yoghurt in cooking
+    - title: Jenna Volpe RDN — low sucrose foods list
+      url: https://wholeisticliving.com/2023/01/16/low-sucrose-foods-list/
+      use: Dietitian-curated low-sucrose vegetables including zucchini and cauliflower
 
 food_groups:
   - id: fats
@@ -84,13 +109,29 @@ foods:
   - name: Unsweetened lactose-free milk
     group: dairy
     status: good
+  - name: Greek yoghurt (unsweetened)
+    group: dairy
+    status: good
+    notes: Plain only; check labels for added sugar or starch thickeners. Contains lactose — test if lactose-sensitive.
+    sources:
+      - title: ANTHC CSID Store-Bought Food Guide
+        url: https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf
+      - title: CSIDinfo.com — dairy table
+        url: http://www.csidinfo.com/dairy.htm
+      - title: Leeds NHS — CSID dietary advice
+        url: https://www.leedsth.nhs.uk/patients/resources/dietary-advice-for-congenital-sucrose-isomaltase-deficiency/
 
   # --- Dairy (bad) ---
+  - name: Flavoured yoghurt
+    group: dairy
+    status: bad
+    concerns: [lactose, sucrose]
+    notes: Added sucrose; contrast with plain unsweetened Greek yoghurt
   - name: Milk and milk products (general)
     group: dairy
     status: bad
     concerns: [lactose, sucrose]
-    notes: Avoid except hard cheese and unsweetened lactose-free or plant milks listed above
+    notes: Avoid except hard cheese, plain unsweetened Greek yoghurt, and unsweetened lactose-free or plant milks listed above
 
   # --- Fruits (good) ---
   - name: Blackberry
@@ -102,6 +143,13 @@ foods:
   - name: Cranberry
     group: fruits
     status: good
+  - name: Currant
+    group: fruits
+    status: good
+    notes: Fresh black/red currants. Dried Zante currants are grapes — see raisins; test separately. Not on Ideal Nutrition elimination list.
+    sources:
+      - title: CSID Cares — Choosing Your Foods
+        url: https://www.csidcares.org/treatment/diet/
   - name: Gooseberry
     group: fruits
     status: good
@@ -206,6 +254,9 @@ foods:
   - name: Garlic
     group: vegetables
     status: good
+  - name: Green beans
+    group: vegetables
+    status: good
   - name: Green onion
     group: vegetables
     status: good
@@ -251,6 +302,17 @@ foods:
   - name: Cabbage
     group: vegetables
     status: good
+  - name: Cauliflower
+    group: vegetables
+    status: good
+    notes: Non-starchy brassica; may cause gas unrelated to CSID — monitor symptoms.
+    sources:
+      - title: ANTHC CSID Store-Bought Food Guide
+        url: https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf
+      - title: CSID Made Simple — food list
+        url: https://csidmadesimple.com/csid-food-list/
+      - title: Leeds NHS — CSID dietary advice
+        url: https://www.leedsth.nhs.uk/patients/resources/dietary-advice-for-congenital-sucrose-isomaltase-deficiency/
   - name: Brussels sprouts
     group: vegetables
     status: good
@@ -260,6 +322,17 @@ foods:
   - name: Asian greens (e.g. bok choy)
     group: vegetables
     status: good
+  - name: Zucchini
+    group: vegetables
+    status: good
+    notes: Summer squash; low starch. Ideal Nutrition lists all squash as avoid — other CSID sources treat summer and winter squash separately.
+    sources:
+      - title: ANTHC CSID Store-Bought Food Guide
+        url: https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf
+      - title: CSID Made Simple — food list
+        url: https://csidmadesimple.com/csid-food-list/
+      - title: Jenna Volpe RDN — low sucrose foods list
+        url: https://wholeisticliving.com/2023/01/16/low-sucrose-foods-list/
 
   # --- Vegetables (bad) ---
   - name: Legumes (black beans, chickpeas, lentils, etc.)
@@ -270,10 +343,11 @@ foods:
     group: vegetables
     status: bad
     concerns: [maltose, starch]
-  - name: Squash (all types)
+  - name: Squash (winter and starchy types)
     group: vegetables
     status: bad
     concerns: [maltose, starch]
+    notes: e.g. butternut, acorn, pumpkin. Summer squash (zucchini, yellow squash) listed separately as good.
   - name: Carrot
     group: vegetables
     status: bad
@@ -336,11 +410,19 @@ foods:
     group: grains
     status: bad
     concerns: [maltose, starch]
+  - name: Rolled oats
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
   - name: Quinoa
     group: grains
     status: bad
     concerns: [maltose, starch]
   - name: Rice
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+  - name: White rice
     group: grains
     status: bad
     concerns: [maltose, starch]

@@ -13,6 +13,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 ## Milk and milk products
 
 - Hard cheeses (e.g. cheddar)
+- Unsweetened Greek yoghurt
 - Unsweetened soy or nut milk
 - Unsweetened lactose-free milk
 
@@ -20,7 +21,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 
 Fresh, frozen, or canned in own juice:
 
-- Berries: blackberry, blueberry, cranberry, gooseberry, loganberry
+- Berries: blackberry, blueberry, cranberry, currant, gooseberry, loganberry
 - Cherry, damson plum, fig, guava, grape
 - Kiwi fruit, lemon, lime, passion fruit
 
@@ -28,12 +29,12 @@ Fresh, frozen, or canned in own juice:
 
 Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 
-- Avocado, celery, chives, cucumber, garlic, green onion
+- Avocado, celery, chives, cucumber, garlic, green beans, green onion
 - Kale, lettuce, mushroom, parsley, parsnip
 - Bell pepper (green and red), radish, spinach, Swiss chard
 - Tomato, turnip, watercress
-- Broccoli, cabbage, Brussels sprouts, eggplant
-- Asian greens (e.g. bok choy)
+- Broccoli, cabbage, cauliflower, Brussels sprouts, eggplant
+- Asian greens (e.g. bok choy), zucchini
 
 ## Meat and meat substitutes
 
