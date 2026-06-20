@@ -16,9 +16,10 @@ After **any** edit to `data/foods.yaml` (add, remove, rename, reclassify, or upd
 
    ```bash
    python3 scripts/generate-all-foods.py
+   python3 scripts/build-site.py
    ```
 
-2. Include the updated `lists/all-foods.md` in the same change set as the YAML edit.
+2. Include the updated `lists/all-foods.md` and `docs/` in the same change set as the YAML edit.
 
 3. Do not finish the task with a stale `all-foods.md` — the combined list must reflect the current database.
 

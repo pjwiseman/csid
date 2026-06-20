@@ -21,10 +21,26 @@ Tiered tolerance lists and food-composition guidance: [CSID Cares — Choosing Y
 
 Some entries also cite secondary CSID sources when the baseline is silent or conflicts — see `meta.research_sources` and per-food `sources` in [data/foods.yaml](data/foods.yaml). Research workflow and source list: [.cursor/rules/project-scope-and-references.mdc](.cursor/rules/project-scope-and-references.mdc).
 
-After editing [data/foods.yaml](data/foods.yaml), regenerate the combined list with:
+After editing [data/foods.yaml](data/foods.yaml), regenerate outputs with:
 
 ```bash
 python3 scripts/generate-all-foods.py
+python3 scripts/build-site.py
 ```
+
+## Website
+
+Static site source lives in [site/](site/); built HTML is written to [docs/](docs/).
+
+**Local preview:**
+
+```bash
+python3 scripts/build-site.py
+python3 -m http.server --directory docs
+```
+
+Open http://localhost:8000
+
+**GitHub Pages:** Push to `main`. The [pages workflow](.github/workflows/pages.yml) builds and deploys automatically. In the repo on GitHub, go to **Settings → Pages → Build and deployment** and set **Source** to **GitHub Actions** (once, after the first push with the workflow).
 
 Tolerance is individual. After 2–4 weeks on the elimination diet, reintroduce foods one at a time (small → moderate → large servings) and record symptoms before personalising your diet.
