@@ -1,0 +1,28 @@
+---
+description: Regenerate lists/all-foods.md after any foods.yaml change
+globs: data/foods.yaml
+alwaysApply: false
+---
+
+# Regenerate all-foods list
+
+`lists/all-foods.md` is generated from `data/foods.yaml`. Keep them in sync.
+
+## Required workflow
+
+After **any** edit to `data/foods.yaml` (add, remove, rename, reclassify, or update fields on a food entry):
+
+1. Run:
+
+   ```bash
+   python3 scripts/generate-all-foods.py
+   ```
+
+2. Include the updated `lists/all-foods.md` in the same change set as the YAML edit.
+
+3. Do not finish the task with a stale `all-foods.md` — the combined list must reflect the current database.
+
+## Do not
+
+- Hand-edit `lists/all-foods.md` (except by running the generator).
+- Leave `foods.yaml` changed without regenerating.

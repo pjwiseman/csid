@@ -6,6 +6,7 @@ CSID (congenital sucrase-isomaltase deficiency) food tracking: good vs bad foods
 
 | File | Purpose |
 | --- | --- |
+| [lists/all-foods.md](lists/all-foods.md) | All foods on one page — search with Ctrl+F / Cmd+F |
 | [lists/good-foods.md](lists/good-foods.md) | Human-readable allowed foods (elimination baseline) |
 | [lists/bad-foods.md](lists/bad-foods.md) | Human-readable foods to avoid (elimination baseline) |
 | [data/foods.yaml](data/foods.yaml) | Structured food database for apps and tracking |
@@ -19,5 +20,11 @@ https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficien
 Tiered tolerance lists and food-composition guidance: [CSID Cares — Choosing Your Foods](https://www.csidcares.org/treatment/diet/)
 
 Some entries also cite secondary CSID sources when the baseline is silent or conflicts — see `meta.research_sources` and per-food `sources` in [data/foods.yaml](data/foods.yaml). Research workflow and source list: [.cursor/rules/project-scope-and-references.mdc](.cursor/rules/project-scope-and-references.mdc).
+
+After editing [data/foods.yaml](data/foods.yaml), regenerate the combined list with:
+
+```bash
+python3 scripts/generate-all-foods.py
+```
 
 Tolerance is individual. After 2–4 weeks on the elimination diet, reintroduce foods one at a time (small → moderate → large servings) and record symptoms before personalising your diet.
