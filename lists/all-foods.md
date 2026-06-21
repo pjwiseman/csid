@@ -118,6 +118,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Quinoa | Bad | Grains | maltose, starch | — |
 | Radish | Good | Vegetables | — | — |
 | Raspberry | Bad | Fruits | sucrose | — |
+| Red onion | Bad | Vegetables | sucrose, starch | Red/purple bulb onion. Same CSID concerns as yellow/brown onion; ANTHC and CSID Cares list onions among least tolerated. |
 | Rice | Bad | Grains | maltose, starch | — |
 | Rolled oats | Bad | Grains | maltose, starch | — |
 | Rye | Bad | Grains | maltose, starch | — |
@@ -152,4 +153,4 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Wild game | Good | Meat and meat substitutes | — | — |
 | Zucchini | Good | Vegetables | — | Summer squash; low starch. Ideal Nutrition lists all squash as avoid — other CSID sources treat summer and winter squash separately. |
 
-**Total:** 143 foods (76 good, 67 bad)
+**Total:** 144 foods (76 good, 68 bad)
