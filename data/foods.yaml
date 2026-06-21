@@ -356,6 +356,16 @@ foods:
     group: vegetables
     status: bad
     concerns: [sucrose, starch]
+  - name: Brown onion
+    group: vegetables
+    status: bad
+    concerns: [sucrose, starch]
+    notes: Yellow/brown bulb onion. Ideal Nutrition lists green onion only; ANTHC and CSID Cares list onions among least tolerated.
+    sources:
+      - title: CSID Cares — Choosing Your Foods
+        url: https://www.csidcares.org/treatment/diet/
+      - title: ANTHC CSID Store-Bought Food Guide
+        url: https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf
   - name: Green peas
     group: vegetables
     status: bad

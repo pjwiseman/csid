@@ -24,7 +24,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 
 - All legumes (black beans, chickpeas, lentils, etc.)
 - Potato (all types), winter squash (e.g. butternut, acorn, pumpkin)
-- Carrot, beetroot, green peas, corn, okra
+- Carrot, beetroot, brown onion, green peas, corn, okra
 
 ## Grains
 

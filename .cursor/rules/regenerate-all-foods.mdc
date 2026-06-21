@@ -1,29 +1,51 @@
 ---
-description: Regenerate lists/all-foods.md after any foods.yaml change
+description: Sync all food lists after any foods.yaml change
 globs: data/foods.yaml
 alwaysApply: false
 ---
 
-# Regenerate all-foods list
+# Sync food lists after foods.yaml changes
 
-`lists/all-foods.md` is generated from `data/foods.yaml`. Keep them in sync.
+`data/foods.yaml` is the source of truth. After any edit (add, remove, rename, reclassify, or update fields):
 
-## Required workflow
+## 1. Regenerate (automated)
 
-After **any** edit to `data/foods.yaml` (add, remove, rename, reclassify, or update fields on a food entry):
+Run:
 
-1. Run:
+```bash
+python3 scripts/generate-all-foods.py
+python3 scripts/build-site.py
+```
 
-   ```bash
-   python3 scripts/generate-all-foods.py
-   python3 scripts/build-site.py
-   ```
+Include updated `lists/all-foods.md` and `docs/` in the same change set.
 
-2. Include the updated `lists/all-foods.md` and `docs/` in the same change set as the YAML edit.
+Do **not** hand-edit `lists/all-foods.md`.
 
-3. Do not finish the task with a stale `all-foods.md` — the combined list must reflect the current database.
+## 2. Update good/bad lists (manual)
 
-## Do not
+Also update `lists/good-foods.md` and/or `lists/bad-foods.md` by hand. **Do not** add a generator for these — the condensed, grouped formatting is intentional.
 
-- Hand-edit `lists/all-foods.md` (except by running the generator).
-- Leave `foods.yaml` changed without regenerating.
+### Where to edit
+
+| Change in YAML | Update |
+| --- | --- |
+| `status: good` added or moved to good | `lists/good-foods.md` — add under the matching `##` section |
+| `status: bad` added or moved to bad | `lists/bad-foods.md` — add under the matching `##` section |
+| Renamed or reclassified | Remove from the old list; add to the new one |
+
+### Preserve formatting
+
+- Keep existing section order and `##` headings (Fats, Milk, Fruits, Vegetables, …).
+- Use **comma-grouped bullets** on one line where the section already does (e.g. `- Carrot, beetroot, brown onion, green peas, corn, okra`).
+- Keep intro lines before bullets where present (e.g. vegetables: “Fresh, frozen, or canned **without** …”).
+- Use **short display names** when the list groups items (e.g. “brown onion” not the full YAML note text).
+- Catch-all wording stays as-is where YAML has a general entry (e.g. “All legumes …”, “All dairy **except** …”).
+- Do not flatten into one-item-per-line or duplicate the full `all-foods.md` table.
+
+### Example
+
+Adding `Brown onion` as bad → append to the vegetables bullet in `bad-foods.md`, keeping comma order roughly alphabetical within the line.
+
+## Do not finish with stale lists
+
+Every `foods.yaml` change must ship with updated `all-foods.md`, `docs/`, **and** the relevant good/bad markdown files.

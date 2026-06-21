@@ -25,6 +25,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Brazil nut | Bad | Nuts and seeds | sucrose | — |
 | Breaded meat | Bad | Meat and meat substitutes | maltose, starch | — |
 | Broccoli | Good | Vegetables | — | — |
+| Brown onion | Bad | Vegetables | sucrose, starch | Yellow/brown bulb onion. Ideal Nutrition lists green onion only; ANTHC and CSID Cares list onions among least tolerated. |
 | Brussels sprouts | Good | Vegetables | — | — |
 | Buckwheat | Bad | Grains | maltose, starch | — |
 | Bulgur | Bad | Grains | maltose, starch | — |
@@ -151,4 +152,4 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Wild game | Good | Meat and meat substitutes | — | — |
 | Zucchini | Good | Vegetables | — | Summer squash; low starch. Ideal Nutrition lists all squash as avoid — other CSID sources treat summer and winter squash separately. |
 
-**Total:** 142 foods (76 good, 66 bad)
+**Total:** 143 foods (76 good, 67 bad)
