@@ -1,0 +1,77 @@
+---
+description: When to start a fresh Cursor chat and how to scope zpwi-csid tasks
+alwaysApply: false
+---
+
+# Cursor chat workflow (zpwi-csid)
+
+**New intent → new chat** (`Ctrl+N` / `Cmd+N`, or the **+** button). Project rules reload automatically; only carry forward what the new task needs.
+
+## Task → chat pattern
+
+### Classify or add a food (research + YAML)
+
+- **Mode:** Agent
+- **Attach:** `@data/foods.yaml`
+- Research per [project-scope-and-references.mdc](./project-scope-and-references.mdc); cite `sources` on entries when using secondary references.
+- After YAML edits, sync lists per [regenerate-all-foods.mdc](./regenerate-all-foods.mdc).
+
+### Sync lists after YAML changes (mechanical)
+
+- **Mode:** Agent
+- **Attach:** `@data/foods.yaml` `@.cursor/rules/regenerate-all-foods.mdc`
+- Run `python3 scripts/generate-all-foods.py` and `python3 scripts/build-site.py`.
+- Hand-update `lists/good-foods.md` and/or `lists/bad-foods.md`; do not hand-edit `lists/all-foods.md`.
+
+### Bulk food import / many entries
+
+- **Mode:** Plan first, then Agent
+- **Attach:** `@data/foods.yaml` `@.cursor/rules/project-scope-and-references.mdc`
+- Split long work: one chat for research/YAML, a fresh chat for regenerate + good/bad list sync.
+
+### Site / docs styling only
+
+- **Mode:** Agent
+- **Attach:** `@docs/` or `@site/` — not `@data/foods.yaml`
+- Run `python3 scripts/build-site.py` after HTML/CSS changes.
+
+### Questions only (no edits)
+
+- **Mode:** Ask
+- **Attach:** only if you know the file (e.g. `@lists/good-foods.md`).
+
+### Commit / PR
+
+- **Mode:** Agent
+- Start a fresh chat; git diff is usually enough context.
+
+## Decision tree
+
+```
+What are you doing?
+├─ New or changed food in YAML → new chat → classify → regenerate → good/bad lists
+├─ YAML already edited, sync only → new chat → regenerate-all-foods rule
+├─ Docs/CSS/HTML only → new chat → @docs/ or @site/ → build-site.py
+├─ Question, no edits → new chat → Ask mode
+└─ Context full or stale assumptions → Ctrl+N + short prompt + @files
+```
+
+## Prompt templates
+
+**Single food add:**
+
+> Add [Food name] to data/foods.yaml (status: good|bad, group: …). Follow project-scope-and-references rule. Then sync all lists per regenerate-all-foods rule.
+
+**Sync after YAML edit:**
+
+> foods.yaml is updated. Run generate-all-foods.py and build-site.py. Update good-foods.md / bad-foods.md for: [changes]. Keep comma-grouped format.
+
+**Unrelated task (explicit reset):**
+
+> Ignore prior context. Task: [one sentence]. Files: @path/to/file
+
+## What persists vs clears
+
+| Persists every new chat | Cleared on new chat |
+| --- | --- |
+| `.cursor/rules/*.mdc`, skills, MCP, indexing | Conversation history, tool results, @ chips |

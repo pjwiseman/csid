@@ -28,6 +28,12 @@ python3 scripts/generate-all-foods.py
 python3 scripts/build-site.py
 ```
 
+Also update `lists/good-foods.md` and/or `lists/bad-foods.md` by hand — see [.cursor/rules/regenerate-all-foods.mdc](.cursor/rules/regenerate-all-foods.mdc).
+
+## Cursor agent workflow
+
+When to start a fresh chat, which mode to use, and prompt templates for common tasks: [.cursor/rules/chat-workflow.mdc](.cursor/rules/chat-workflow.mdc).
+
 ## Website
 
 Static site source lives in [site/](site/); built HTML is written to [docs/](docs/).
