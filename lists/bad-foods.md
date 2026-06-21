@@ -17,7 +17,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 ## Fruits
 
 - Apple, apricot, banana, dates, grapefruit
-- Mango, melons, papaya, peach, pear
+- Mango, mandarin, melons, orange, papaya, peach, pear
 - Pineapple, raspberry, strawberry
 
 ## Vegetables

@@ -209,10 +209,26 @@ foods:
     group: fruits
     status: bad
     concerns: [sucrose]
+  - name: Mandarin
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+    notes: Includes clementines and tangerines. Not on Ideal Nutrition elimination allow list; CSID Cares — few CSID patients tolerate mandarin oranges.
+    sources:
+      - title: CSID Cares — Choosing Your Foods
+        url: https://www.csidcares.org/treatment/diet/
   - name: Melon
     group: fruits
     status: bad
     concerns: [sucrose]
+  - name: Orange
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+    notes: Sweet oranges (navel, Valencia, etc.). Not on Ideal Nutrition elimination allow list; CSID Cares — few CSID patients tolerate oranges.
+    sources:
+      - title: CSID Cares — Choosing Your Foods
+        url: https://www.csidcares.org/treatment/diet/
   - name: Papaya
     group: fruits
     status: bad

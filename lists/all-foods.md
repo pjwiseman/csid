@@ -93,6 +93,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Loganberry | Good | Fruits | — | — |
 | Macadamia | Bad | Nuts and seeds | sucrose | — |
 | Maltose (grain sugar) | Bad | Sugars and sweeteners | maltose | — |
+| Mandarin | Bad | Fruits | sucrose | Includes clementines and tangerines. Not on Ideal Nutrition elimination allow list; CSID Cares — few CSID patients tolerate mandarin oranges. |
 | Mango | Bad | Fruits | sucrose | — |
 | Margarine or diet spread (no whey or milk solids) | Good | Fats | — | — |
 | Margarine with whey or milk solids | Bad | Fats | lactose | — |
@@ -105,6 +106,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Oats | Bad | Grains | maltose, starch | — |
 | Okra | Bad | Vegetables | maltose, starch | — |
 | Olive oil | Good | Fats | — | — |
+| Orange | Bad | Fruits | sucrose | Sweet oranges (navel, Valencia, etc.). Not on Ideal Nutrition elimination allow list; CSID Cares — few CSID patients tolerate oranges. |
 | Papaya | Bad | Fruits | sucrose | — |
 | Parsley | Good | Vegetables | — | — |
 | Parsnip | Good | Vegetables | — | — |
@@ -158,4 +160,4 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Wild game | Good | Meat and meat substitutes | — | — |
 | Zucchini | Good | Vegetables | — | Summer squash; low starch. Ideal Nutrition lists all squash as avoid — other CSID sources treat summer and winter squash separately. |
 
-**Total:** 149 foods (80 good, 69 bad)
+**Total:** 151 foods (80 good, 71 bad)
