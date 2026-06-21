@@ -52,3 +52,6 @@ Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 ## Other
 
 - Spices and herbs — enjoy freely
+- Shirataki noodles, konjac flour (starch-free substitutes for pasta and grain flour)
+- Mustard (wholegrain, Dijon) — plain only; check labels for added sugar or starch
+- Gluten-free soy sauce — wheat-free; check for added sugar

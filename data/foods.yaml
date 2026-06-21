@@ -463,6 +463,16 @@ foods:
     status: bad
     concerns: [maltose, starch]
 
+  # --- Grains (good starch-free substitutes) ---
+  - name: Shirataki noodles
+    group: grains
+    status: good
+    notes: Konjac (glucomannan) noodles; essentially starch-free. Check labels for added starches or sugars.
+  - name: Konjac flour
+    group: grains
+    status: good
+    notes: Glucomannan flour from konjac root; starch-free thickener or baking ingredient. Also sold as konjak flour.
+
   # --- Meat (good) ---
   - name: Lamb
     group: meat
@@ -533,6 +543,14 @@ foods:
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+  - name: Almond flour
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose, starch]
+    notes: Ground almonds; same sucrose concern as whole almonds. Reintroduce in testing phase.
+    sources:
+      - title: CSID Made Simple — food list (Q&A on almond flour)
+        url: https://csidmadesimple.com/csid-food-list/
   - name: Brazil nut
     group: nuts_seeds
     status: bad
@@ -631,3 +649,14 @@ foods:
     group: other
     status: good
     notes: Enjoy freely
+  - name: Mustard (wholegrain, Dijon)
+    group: other
+    status: good
+    notes: Plain mustard only; check labels for added sugar, malt vinegar, or wheat flour (some brands).
+  - name: Gluten-free soy sauce
+    group: other
+    status: good
+    notes: Wheat-free tamari-style; avoids maltose/starch from wheat in regular soy sauce. Check for added sugar.
+    sources:
+      - title: CSID Cares — Reading Food Labels
+        url: https://www.csidcares.org/treatment/reading-food-labels/

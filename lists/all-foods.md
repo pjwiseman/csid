@@ -9,6 +9,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Food | Status | Category | Concerns | Notes |
 | --- | --- | --- | --- | --- |
 | Almond | Bad | Nuts and seeds | sucrose | — |
+| Almond flour | Bad | Nuts and seeds | sucrose, starch | Ground almonds; same sucrose concern as whole almonds. Reintroduce in testing phase. |
 | Amaranth | Bad | Grains | maltose, starch | — |
 | Apple | Bad | Fruits | sucrose | — |
 | Apricot | Bad | Fruits | sucrose | — |
@@ -65,6 +66,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Fructose | Good | Sugars and sweeteners | — | — |
 | Garlic | Good | Vegetables | — | — |
 | Glucose | Good | Sugars and sweeteners | — | — |
+| Gluten-free soy sauce | Good | Other | — | Wheat-free tamari-style; avoids maltose/starch from wheat in regular soy sauce. Check for added sugar. |
 | Gooseberry | Good | Fruits | — | — |
 | Grain flours (general) | Bad | Grains | maltose, starch | — |
 | Grape | Good | Fruits | — | — |
@@ -79,6 +81,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Honey | Good | Sugars and sweeteners | — | Use in moderation |
 | Kale | Good | Vegetables | — | — |
 | Kiwi fruit | Good | Fruits | — | — |
+| Konjac flour | Good | Grains | — | Glucomannan flour from konjac root; starch-free thickener or baking ingredient. Also sold as konjak flour. |
 | Lactose (milk sugar) | Bad | Sugars and sweeteners | lactose | — |
 | Lamb | Good | Meat and meat substitutes | — | — |
 | Lard | Good | Fats | — | — |
@@ -98,6 +101,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Milk and milk products (general) | Bad | Milk and milk products | lactose, sucrose | Avoid except hard cheese, plain unsweetened Greek yoghurt, and unsweetened lactose-free or plant milks listed above |
 | Millet | Bad | Grains | maltose, starch | — |
 | Mushroom | Good | Vegetables | — | — |
+| Mustard (wholegrain, Dijon) | Good | Other | — | Plain mustard only; check labels for added sugar, malt vinegar, or wheat flour (some brands). |
 | Oats | Bad | Grains | maltose, starch | — |
 | Okra | Bad | Vegetables | maltose, starch | — |
 | Olive oil | Good | Fats | — | — |
@@ -126,6 +130,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Safflower oil | Good | Fats | — | — |
 | Sesame seeds | Bad | Nuts and seeds | sucrose | — |
 | Shellfish | Good | Meat and meat substitutes | — | — |
+| Shirataki noodles | Good | Grains | — | Konjac (glucomannan) noodles; essentially starch-free. Check labels for added starches or sugars. |
 | Smoked meat | Bad | Meat and meat substitutes | — | — |
 | Spelt | Bad | Grains | maltose, starch | — |
 | Spices and herbs | Good | Other | — | Enjoy freely |
@@ -153,4 +158,4 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Wild game | Good | Meat and meat substitutes | — | — |
 | Zucchini | Good | Vegetables | — | Summer squash; low starch. Ideal Nutrition lists all squash as avoid — other CSID sources treat summer and winter squash separately. |
 
-**Total:** 144 foods (76 good, 68 bad)
+**Total:** 149 foods (80 good, 69 bad)

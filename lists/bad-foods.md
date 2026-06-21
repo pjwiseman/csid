@@ -45,7 +45,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 
 All, including:
 
-- Almond, Brazil nut, cashew, hazelnut, macadamia, pecan, pistachio
+- Almond, almond flour, Brazil nut, cashew, hazelnut, macadamia, pecan, pistachio
 - Pumpkin seeds, sesame seeds, sunflower seeds, walnut
 
 ## Sugars and sweeteners
