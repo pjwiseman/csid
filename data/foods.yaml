@@ -100,6 +100,15 @@ foods:
     group: dairy
     status: good
     notes: Low lactose; often tolerated if lactose is not an issue
+  - name: Haloumi
+    group: dairy
+    status: good
+    notes: Semi-hard brined cheese; low lactose and negligible sucrose/starch. Plain only — check labels for added milk solids or starch in flavoured or processed products.
+    sources:
+      - title: ANTHC CSID Store-Bought Food Guide
+        url: https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf
+      - title: CSIDinfo.com — dairy table (feta, similar brined cheese)
+        url: http://www.csidinfo.com/dairy.htm
   - name: Unsweetened soy milk
     group: dairy
     status: good

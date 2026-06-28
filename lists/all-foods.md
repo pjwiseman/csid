@@ -77,6 +77,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Green onion | Good | Vegetables | — | — |
 | Green peas | Bad | Vegetables | maltose, starch | — |
 | Guava | Good | Fruits | — | — |
+| Haloumi | Good | Milk and milk products | — | Semi-hard brined cheese; low lactose and negligible sucrose/starch. Plain only — check labels for added milk solids or starch in flavoured or processed products. |
 | Hard cheese (e.g. cheddar) | Good | Milk and milk products | — | Low lactose; often tolerated if lactose is not an issue |
 | Hazelnut | Bad | Nuts and seeds | sucrose | — |
 | Honey | Good | Sugars and sweeteners | — | Use in moderation |
@@ -163,4 +164,4 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Wild game | Good | Meat and meat substitutes | — | — |
 | Zucchini | Good | Vegetables | — | Summer squash; low starch. Ideal Nutrition lists all squash as avoid — other CSID sources treat summer and winter squash separately. |
 
-**Total:** 154 foods (83 good, 71 bad)
+**Total:** 155 foods (84 good, 71 bad)

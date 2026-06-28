@@ -12,7 +12,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 
 ## Milk and milk products
 
-- Hard cheeses (e.g. cheddar)
+- Hard cheeses (e.g. cheddar), haloumi
 - Unsweetened Greek yoghurt
 - Unsweetened soy or nut milk
 - Unsweetened lactose-free milk
