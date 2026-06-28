@@ -38,7 +38,7 @@ Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 
 ## Meat and meat substitutes
 
-- Lamb, beef, pork, wild game
+- Lamb, beef, pork, pork rind, wild game
 - Poultry: chicken, duck, turkey
 - Fish, shellfish
 - Plain eggs
@@ -51,6 +51,8 @@ Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 
 ## Other
 
+- Sea salt, table salt
+- Flavour enhancer 621 (MSG)
 - Spices and herbs — enjoy freely
 - Shirataki noodles, konjac flour (starch-free substitutes for pasta and grain flour)
 - Mustard (wholegrain, Dijon) — plain only; check labels for added sugar or starch

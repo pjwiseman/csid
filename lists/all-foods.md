@@ -60,6 +60,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Eggplant | Good | Vegetables | — | — |
 | Fig | Good | Fruits | — | — |
 | Fish | Good | Meat and meat substitutes | — | — |
+| Flavour enhancer 621 (MSG) | Good | Other | — | Monosodium glutamate (INS 621); not a disaccharide or starch. Listed as flavour enhancer on AU/NZ labels. |
 | Flavoured yoghurt | Bad | Milk and milk products | lactose, sucrose | Added sucrose; contrast with plain unsweetened Greek yoghurt |
 | Flaxseed oil | Good | Fats | — | — |
 | Foods with added sugars | Bad | Sugars and sweeteners | sucrose | — |
@@ -117,6 +118,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Pineapple | Bad | Fruits | sucrose | — |
 | Pistachio | Bad | Nuts and seeds | sucrose | — |
 | Pork | Good | Meat and meat substitutes | — | — |
+| Pork rind | Good | Meat and meat substitutes | — | Plain fried or roasted pig skin only; negligible sucrose and starch. Check labels for breading, maltodextrin, sugar, or wheat flour in flavoured brands. |
 | Potato (all types) | Bad | Vegetables | maltose, starch | — |
 | Processed meat | Bad | Meat and meat substitutes | sucrose, starch | — |
 | Pumpkin | Bad | Vegetables | maltose, starch | — |
@@ -130,6 +132,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Rye | Bad | Grains | maltose, starch | — |
 | Saccharine | Good | Sugars and sweeteners | — | Lactose-free sugar substitute; moderation |
 | Safflower oil | Good | Fats | — | — |
+| Sea salt | Good | Other | — | Pure sodium chloride; no sucrose, lactose, maltose, or starch. Table salt is equivalent. |
 | Sesame seeds | Bad | Nuts and seeds | sucrose | — |
 | Shellfish | Good | Meat and meat substitutes | — | — |
 | Shirataki noodles | Good | Grains | — | Konjac (glucomannan) noodles; essentially starch-free. Check labels for added starches or sugars. |
@@ -160,4 +163,4 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Wild game | Good | Meat and meat substitutes | — | — |
 | Zucchini | Good | Vegetables | — | Summer squash; low starch. Ideal Nutrition lists all squash as avoid — other CSID sources treat summer and winter squash separately. |
 
-**Total:** 151 foods (80 good, 71 bad)
+**Total:** 154 foods (83 good, 71 bad)

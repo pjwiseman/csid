@@ -499,6 +499,15 @@ foods:
   - name: Pork
     group: meat
     status: good
+  - name: Pork rind
+    group: meat
+    status: good
+    notes: Plain fried or roasted pig skin only; negligible sucrose and starch. Check labels for breading, maltodextrin, sugar, or wheat flour in flavoured brands.
+    sources:
+      - title: CSID Cares — Choosing Your Foods
+        url: https://www.csidcares.org/treatment/diet/
+      - title: ANTHC CSID Store-Bought Food Guide
+        url: https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf
   - name: Wild game
     group: meat
     status: good
@@ -661,6 +670,17 @@ foods:
     concerns: [sucrose, maltose]
 
   # --- Other ---
+  - name: Sea salt
+    group: other
+    status: good
+    notes: Pure sodium chloride; no sucrose, lactose, maltose, or starch. Table salt is equivalent.
+    sources:
+      - title: CSID Cares — Choosing Your Foods
+        url: https://www.csidcares.org/treatment/diet/
+  - name: Flavour enhancer 621 (MSG)
+    group: other
+    status: good
+    notes: Monosodium glutamate (INS 621); not a disaccharide or starch. Listed as flavour enhancer on AU/NZ labels.
   - name: Spices and herbs
     group: other
     status: good
