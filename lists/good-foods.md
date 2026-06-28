@@ -47,7 +47,7 @@ Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 ## Sugars and sweeteners
 
 - Glucose, dextrose, fructose, levulose, honey (moderation)
-- Lactose-free sugar substitutes (moderation): aspartame, cyclamate, saccharine
+- Lactose-free sugar substitutes (moderation): aspartame, cyclamate, monk fruit sugar, saccharine
 
 ## Other
 

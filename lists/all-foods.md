@@ -103,6 +103,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Melon | Bad | Fruits | sucrose | — |
 | Milk and milk products (general) | Bad | Milk and milk products | lactose, sucrose | Avoid except hard cheese, plain unsweetened Greek yoghurt, and unsweetened lactose-free or plant milks listed above |
 | Millet | Bad | Grains | maltose, starch | — |
+| Monk fruit sugar | Good | Sugars and sweeteners | — | Lactose-free sugar substitute; moderation. Check labels — granulated blends often contain maltodextrin (starch); pure liquid extract or dextrose blends tolerated better. |
 | Mushroom | Good | Vegetables | — | — |
 | Mustard (wholegrain, Dijon) | Good | Other | — | Plain mustard only; check labels for added sugar, malt vinegar, or wheat flour (some brands). |
 | Oats | Bad | Grains | maltose, starch | — |
@@ -164,4 +165,4 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Wild game | Good | Meat and meat substitutes | — | — |
 | Zucchini | Good | Vegetables | — | Summer squash; low starch. Ideal Nutrition lists all squash as avoid — other CSID sources treat summer and winter squash separately. |
 
-**Total:** 155 foods (84 good, 71 bad)
+**Total:** 156 foods (85 good, 71 bad)

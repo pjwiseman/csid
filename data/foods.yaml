@@ -655,6 +655,15 @@ foods:
     group: sugars
     status: good
     notes: Lactose-free sugar substitute; moderation
+  - name: Monk fruit sugar
+    group: sugars
+    status: good
+    notes: Lactose-free sugar substitute; moderation. Check labels — granulated blends often contain maltodextrin (starch); pure liquid extract or dextrose blends tolerated better.
+    sources:
+      - title: CSIDinfo.com — sweeteners
+        url: https://csidinfo.com/sweetener.htm
+      - title: CSID Made Simple — sweeteners
+        url: https://csidmadesimple.com/csid-food-list/
 
   # --- Sugars (bad) ---
   - name: Sucrose (table sugar)
