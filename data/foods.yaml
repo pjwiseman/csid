@@ -52,6 +52,8 @@ food_groups:
     name: Nuts and seeds
   - id: sugars
     name: Sugars and sweeteners
+  - id: sweets
+    name: Sweets and lollies
   - id: other
     name: Other
 
@@ -686,6 +688,43 @@ foods:
     group: sugars
     status: bad
     concerns: [sucrose, maltose]
+
+  # --- Sweets and lollies (good) ---
+  - name: Jila Spearmint No Sugar Mints
+    group: sweets
+    status: good
+    notes: Sugar-free; sweetened with sorbitol and steviol glycosides (stevia). No sucrose, maltose, or starch. Excess sugar alcohols can cause gas/diarrhoea in anyone — moderation. Check the tin; formulation can change.
+    sources:
+      - title: CSIDinfo.com — sweeteners (sorbitol)
+        url: https://csidinfo.com/sweetener.htm
+      - title: CSID Cares — Sugars and Sugar Substitutes
+        url: https://www.csidcares.org/treatment/sugars/
+      - title: Officeworks — Jila Sugar Free Mints Spearmint ingredients
+        url: https://www.officeworks.com.au/shop/officeworks/p/jila-sugar-free-mints-spearmint-34g-le87300
+
+  - name: Jols 99% Sugar Free Fruit Pastilles
+    group: sweets
+    status: good
+    notes: Sugar-free pastilles sweetened with sorbitol, maltitol, aspartame, and acesulfame-K. Not sucrose/starch confectionery, but maltitol is only for some CSID phenotypes (CSIDinfo); polyols may cause GI symptoms in excess. Trace fruit-juice concentrate (~1%) including orange — negligible for most, but retest if sensitive. Check label.
+    sources:
+      - title: CSIDinfo.com — sweeteners (sorbitol, maltitol)
+        url: https://csidinfo.com/sweetener.htm
+      - title: CSID Cares — Sugars and Sugar Substitutes
+        url: https://www.csidcares.org/treatment/sugars/
+      - title: Woolworths — Jols Sugar Free Pastilles Three Fruits ingredients
+        url: https://www.woolworths.com.au/shop/productdetails/231545/jols-sugar-free-pastilles-three-fruits
+
+  - name: Double D Butter Lollies (sugar free)
+    group: sweets
+    status: good
+    notes: Sugar-free butter candy (~89% isomalt) with stevia; no sucrose. Isomalt is a polyol tolerated by some CSID phenotypes (CSIDinfo B/C; CSID Cares — sugar alcohols for some). Not sucrose — slow incomplete α-glucosidase hydrolysis; excess polyols can cause gas/diarrhoea in anyone. Contains butter and cream — test if lactose-sensitive. Moderation (≈3.5 g isomalt per drop). Confirm sugar-free pack.
+    sources:
+      - title: CSIDinfo.com — sweeteners (isomalt)
+        url: https://csidinfo.com/sweetener.htm
+      - title: CSID Cares — Sugars and Sugar Substitutes
+        url: https://www.csidcares.org/treatment/sugars/
+      - title: Double D — Sugar Free Butter Candy ingredients
+        url: https://www.doubledproducts.com.au/product/double-d-sugar-free-butter-candy-70g/
 
   # --- Other ---
   - name: Sea salt

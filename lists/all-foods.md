@@ -53,6 +53,7 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Damson plum | Good | Fruits | — | — |
 | Date | Bad | Fruits | sucrose | — |
 | Dextrose | Good | Sugars and sweeteners | — | — |
+| Double D Butter Lollies (sugar free) | Good | Sweets and lollies | — | Sugar-free butter candy (~89% isomalt) with stevia; no sucrose. Isomalt is a polyol tolerated by some CSID phenotypes (CSIDinfo B/C; CSID Cares — sugar alcohols for some). Not sucrose — slow incomplete α-glucosidase hydrolysis; excess polyols can cause gas/diarrhoea in anyone. Contains butter and cream — test if lactose-sensitive. Moderation (≈3.5 g isomalt per drop). Confirm sugar-free pack. |
 | Duck | Good | Meat and meat substitutes | — | — |
 | Edamame | Bad | Meat and meat substitutes | maltose, starch | — |
 | Egg (plain) | Good | Meat and meat substitutes | — | — |
@@ -81,6 +82,8 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Hard cheese (e.g. cheddar) | Good | Milk and milk products | — | Low lactose; often tolerated if lactose is not an issue |
 | Hazelnut | Bad | Nuts and seeds | sucrose | — |
 | Honey | Good | Sugars and sweeteners | — | Use in moderation |
+| Jila Spearmint No Sugar Mints | Good | Sweets and lollies | — | Sugar-free; sweetened with sorbitol and steviol glycosides (stevia). No sucrose, maltose, or starch. Excess sugar alcohols can cause gas/diarrhoea in anyone — moderation. Check the tin; formulation can change. |
+| Jols 99% Sugar Free Fruit Pastilles | Good | Sweets and lollies | — | Sugar-free pastilles sweetened with sorbitol, maltitol, aspartame, and acesulfame-K. Not sucrose/starch confectionery, but maltitol is only for some CSID phenotypes (CSIDinfo); polyols may cause GI symptoms in excess. Trace fruit-juice concentrate (~1%) including orange — negligible for most, but retest if sensitive. Check label. |
 | Kale | Good | Vegetables | — | — |
 | Kiwi fruit | Good | Fruits | — | — |
 | Konjac flour | Good | Grains | — | Glucomannan flour from konjac root; starch-free thickener or baking ingredient. Also sold as konjak flour. |
@@ -165,4 +168,4 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 | Wild game | Good | Meat and meat substitutes | — | — |
 | Zucchini | Good | Vegetables | — | Summer squash; low starch. Ideal Nutrition lists all squash as avoid — other CSID sources treat summer and winter squash separately. |
 
-**Total:** 156 foods (85 good, 71 bad)
+**Total:** 159 foods (88 good, 71 bad)

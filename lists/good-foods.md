@@ -49,6 +49,12 @@ Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 - Glucose, dextrose, fructose, levulose, honey (moderation)
 - Lactose-free sugar substitutes (moderation): aspartame, cyclamate, monk fruit sugar, saccharine
 
+## Sweets and lollies
+
+- Jila Spearmint No Sugar Mints (sorbitol + stevia; moderation — polyols)
+- Jols 99% Sugar Free Fruit Pastilles (sorbitol/maltitol; test maltitol tolerance)
+- Double D Butter Lollies (sugar free) — isomalt + stevia; moderation; test if lactose-sensitive
+
 ## Other
 
 - Sea salt, table salt
