@@ -15,6 +15,7 @@
         <a href="good.html">Good foods</a>
         <a href="bad.html">Bad foods</a>
         <a href="all-foods.html" aria-current="page">All foods</a>
+        <a href="changes.html">Phase changes</a>
       </nav>
     </div>
   </header>
@@ -22,1147 +23,1908 @@
     <h2>All foods</h2>
     <p class="intro">
       Single-page reference for every food. Search by name, category, status, or concern.
+      Phase 1 (elimination) vs Phase 2 (Australia) columns stay hidden unless you turn them on.
     </p>
     <div class="search-bar">
       <label for="food-search">Search</label>
       <input type="search" id="food-search" placeholder="e.g. zucchini, starch, dairy…" autocomplete="off">
-      <p class="search-meta" id="search-count">159 foods</p>
+      <p class="toggle-row">
+        <label>
+          <input type="checkbox" id="show-phases">
+          Show Phase 1 vs Phase 2
+        </label>
+      </p>
+      <p class="search-meta" id="search-count">207 foods</p>
     </div>
     <div class="table-wrap">
       <table id="foods-table">
         <thead>
           <tr>
             <th>Food</th>
-            <th>Status</th>
+            <th class="col-status">Status</th>
+            <th class="phase-col">Phase 1</th>
+            <th class="phase-col">Phase 2</th>
             <th>Category</th>
             <th>Concerns</th>
             <th>Notes</th>
           </tr>
         </thead>
         <tbody>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Alfalfa sprouts</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 0 g sucrose, 0 g starch, 0.1 g maltose.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Almond</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">English Table 4 — 4.6 g sucrose/100 g; ~21 g for 1 g sucrose (small handful).</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Almond flour</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
-          <td>sucrose, starch</td>
-          <td class="notes">Ground almonds; same sucrose concern as whole almonds. Reintroduce in testing phase.</td>
+          <td>sucrose</td>
+          <td class="notes">English Table 4 — 3.9 g sucrose/100 g; ~25 g for 1 g sucrose. Recipes using cups of almond meal add up fast.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Amaranth</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Apple</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">Above the ≤1 g/100 g low band. AFCD R3 Fuji unpeeled 1.1 g sucrose, 0 g starch. English Table 3 — about ½ medium Fuji (~75 g) for ~1 g sucrose if testing portions.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Apricot</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
           <td>sucrose</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
-          <td>Asian greens (e.g. bok choy)</td>
-          <td><span class="badge good">Good</span></td>
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Artichoke</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
-          <td class="notes">—</td>
+          <td class="notes">Globe and canned hearts. English Table 2. AFCD R3 globe raw 0.2 g sucrose, 0.4 g starch; canned hearts 0.3 / 0.1. Jerusalem artichoke is higher sucrose (~1.9 g) — not this entry.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
+          <td>Asian greens (e.g. bok choy)</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">Includes choy sum, Chinese/Napa/mustard cabbage. English Table 2. AFCD R3 bok choy 0 g sucrose, 0 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Asparagus</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 green raw 0.1 g sucrose, 0 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Aspartame</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sugars and sweeteners</td>
           <td>—</td>
           <td class="notes">Lactose-free sugar substitute; moderation</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Avocado</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Bamboo shoot</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 canned in water, drained 0 g sucrose, 0.5 g starch.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Banana</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
           <td>sucrose</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Barley</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Bean sprouts</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 0 g sucrose, 0.6 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Beef</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Beetroot</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Vegetables</td>
-          <td>sucrose, starch</td>
-          <td class="notes">—</td>
+          <td>sucrose</td>
+          <td class="notes">AFCD R3 fresh purple peeled raw 9.2 g sucrose, 0 g starch (baked 11.2 g). English Table 3 — 1–2 thin slices for ~1 g sucrose.</td>
         </tr>
-        <tr data-status="good">
-          <td>Bell pepper (green and red)</td>
-          <td><span class="badge good">Good</span></td>
+        <tr data-status="good" data-phase1="good" data-change="">
+          <td>Bell pepper (green, red, yellow)</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
-          <td class="notes">—</td>
+          <td class="notes">Capsicum. English Table 2. AFCD R3 green/red/yellow raw 0 g sucrose, 0 g starch.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Bitter melon</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.1 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Blackberry</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Blueberry</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Brazil nut</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">English Table 4 — 2.1 g sucrose/100 g; ~47 g for 1 g sucrose.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Breaded meat</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Meat and meat substitutes</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Broccoli</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Broccolini</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.7 g starch.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Brown onion</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Vegetables</td>
-          <td>sucrose, starch</td>
-          <td class="notes">Yellow/brown bulb onion. Ideal Nutrition lists green onion only; ANTHC and CSID Cares list onions among least tolerated.</td>
+          <td>sucrose</td>
+          <td class="notes">Yellow/brown bulb. AFCD R3 peeled raw 1.9 g sucrose, 0 g starch (moderate). White onion is allow. Fried brown onion 3.1 g sucrose.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Brussels sprouts</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Buckwheat</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Bulgur</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Butter</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fats</td>
           <td>lactose</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Button squash</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 fresh raw 0.1 g sucrose, 0.3 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Cabbage</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Canned corned beef</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Canola oil</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fats</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Carrot</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Vegetables</td>
-          <td>sucrose, starch</td>
-          <td class="notes">—</td>
+          <td>sucrose</td>
+          <td class="notes">AFCD R3 mature peeled raw 4.1 g sucrose, 0.4 g starch. English Table 3 — about ¼ cup chopped for ~1 g sucrose.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Cashew</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">English Table 4 — 5.5 g sucrose/100 g; ~18 g for 1 g sucrose.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Cauliflower</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">Non-starchy brassica; may cause gas unrelated to CSID — monitor symptoms.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Celery</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Cherry</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Chia seeds</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Nuts and seeds</td>
+          <td>—</td>
+          <td class="notes">English Table 4/5. AFCD R3 0.7 g sucrose, 2.4 g starch per 100 g — use about 15 g so starch stays ≤1 g per serve.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Chicken</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Chicory</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 raw 0 g sucrose, 0.1 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Chilli</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">Fresh green or red. English Table 2. AFCD R3 green 0.1 g sucrose, 0 g starch; red 0 / 0. Not chilli powder or seasoning mixes.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Chives</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Choko</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">Chayote. English Table 2. AFCD R3 peeled raw 0 g sucrose, 0.5 g starch.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Corn</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Vegetables</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Corn (grain/flour)</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Corn oil</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fats</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Couscous</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Cranberry</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Cucumber</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Cured meat</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Currant</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">Fresh black/red currants. Dried Zante currants are grapes — see raisins; test separately. Not on Ideal Nutrition elimination list.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Cyclamate</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sugars and sweeteners</td>
           <td>—</td>
           <td class="notes">Lactose-free sugar substitute; moderation</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Damson plum</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Date</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
-          <td>sucrose</td>
-          <td class="notes">—</td>
+          <td>sucrose, starch</td>
+          <td class="notes">Not on English Table 1. AFCD R3 dried 0 g sucrose, 1.3 g starch. Table 5 lists a 30 g dried date serve for fibre if starch at that portion is tolerated.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="bad" data-phase1="none" data-change="added">
+          <td>Desiccated coconut</td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td>Nuts and seeds</td>
+          <td>sucrose</td>
+          <td class="notes">English Table 4 — 5.5 g sucrose/100 g; ~18 g for 1 g sucrose.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Dextrose</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sugars and sweeteners</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Double D Butter Lollies (sugar free)</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sweets and lollies</td>
           <td>—</td>
           <td class="notes">Sugar-free butter candy (~89% isomalt) with stevia; no sucrose. Isomalt is a polyol tolerated by some CSID phenotypes (CSIDinfo B/C; CSID Cares — sugar alcohols for some). Not sucrose — slow incomplete α-glucosidase hydrolysis; excess polyols can cause gas/diarrhoea in anyone. Contains butter and cream — test if lactose-sensitive. Moderation (≈3.5 g isomalt per drop). Confirm sugar-free pack.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Duck</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Edamame</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Meat and meat substitutes</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Egg (plain)</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Egg with added milk, flour, or sugar</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Meat and meat substitutes</td>
           <td>lactose, maltose, sucrose</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Eggplant</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Endive</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.1 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Fennel</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 fresh raw 0.5 g sucrose, 0 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Fig</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Fish</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Flavour enhancer 621 (MSG)</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Other</td>
           <td>—</td>
           <td class="notes">Monosodium glutamate (INS 621); not a disaccharide or starch. Listed as flavour enhancer on AU/NZ labels.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Flavoured yoghurt</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Milk and milk products</td>
           <td>lactose, sucrose</td>
           <td class="notes">Added sucrose; contrast with plain unsweetened Greek yoghurt</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Flaxseed</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Nuts and seeds</td>
+          <td>—</td>
+          <td class="notes">Linseed. English Table 4/5. AFCD R3 1.5 g sucrose, 1.3 g starch per 100 g; ~15 g serve keeps both ≤1 g. Table 4 ~65 g for 1 g sucrose is a large amount — start smaller.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Flaxseed oil</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fats</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Foods with added sugars</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Sugars and sweeteners</td>
           <td>sucrose</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Fructose</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sugars and sweeteners</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Garlic</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Glucose</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sugars and sweeteners</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Gluten-free soy sauce</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Other</td>
           <td>—</td>
           <td class="notes">Wheat-free tamari-style; avoids maltose/starch from wheat in regular soy sauce. Check for added sugar.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Gooseberry</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Grain flours (general)</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Grape</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Grapefruit</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
           <td>sucrose</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Greek yoghurt (unsweetened)</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Milk and milk products</td>
           <td>—</td>
           <td class="notes">Plain only; check labels for added sugar or starch thickeners. Contains lactose — test if lactose-sensitive.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Green beans</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Green onion</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Green peas</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Vegetables</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Guava</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Hairy melon</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.3 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Haloumi</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Milk and milk products</td>
           <td>—</td>
           <td class="notes">Semi-hard brined cheese; low lactose and negligible sucrose/starch. Plain only — check labels for added milk solids or starch in flavoured or processed products.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Hard cheese (e.g. cheddar)</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Milk and milk products</td>
           <td>—</td>
           <td class="notes">Low lactose; often tolerated if lactose is not an issue</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Hazelnut</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">English Table 4 — 4.4 g sucrose/100 g; ~22 g for 1 g sucrose.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Honey</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sugars and sweeteners</td>
           <td>—</td>
           <td class="notes">Use in moderation</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="bad" data-phase1="bad" data-change="">
+          <td>Honeydew (white skin)</td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td>Fruits</td>
+          <td>sucrose</td>
+          <td class="notes">AFCD R3 peeled raw 3.9 g sucrose, 0 g starch. Generic “honey dew, peeled” 2.3 g sucrose. Only yellow-skin honeydew meets English ≤1 g/100 g. USDA ~2.5 g/100 g is a US figure, not AU yellow-skin.</td>
+        </tr>
+        <tr data-status="good" data-phase1="bad" data-change="changed">
+          <td>Honeydew (yellow skin)</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">Golden/yellow-skin honeydew. English Table 1 (≤1 g sucrose and starch / 100 g). AFCD R3 peeled raw 1.0 g sucrose, 0 g starch, 0 g maltose. White-skin honeydew is 3.9 g sucrose — listed separately as avoid. USDA ~2.5 g/100 g is a US blend, not this cultivar.</td>
+        </tr>
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Jarrahdale pumpkin</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 peeled raw 0 g sucrose, 0 g starch (baked/boiled still 0 / 0). Not butternut or generic pumpkin.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Jila Spearmint No Sugar Mints</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sweets and lollies</td>
           <td>—</td>
           <td class="notes">Sugar-free; sweetened with sorbitol and steviol glycosides (stevia). No sucrose, maltose, or starch. Excess sugar alcohols can cause gas/diarrhoea in anyone — moderation. Check the tin; formulation can change.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Jols 99% Sugar Free Fruit Pastilles</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sweets and lollies</td>
           <td>—</td>
           <td class="notes">Sugar-free pastilles sweetened with sorbitol, maltitol, aspartame, and acesulfame-K. Not sucrose/starch confectionery, but maltitol is only for some CSID phenotypes (CSIDinfo); polyols may cause GI symptoms in excess. Trace fruit-juice concentrate (~1%) including orange — negligible for most, but retest if sensitive. Check label.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Kale</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Kent pumpkin</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">Jap/Kent pumpkin. English Table 2. AFCD R3 peeled raw 0.8 g sucrose, 0.5 g starch, 0 g maltose (baked 0.9 / 0.6). Butternut, Queensland blue, and unspecified pumpkin stay avoid.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Kiwi fruit</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Kohlrabi</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 peeled raw 0.9 g sucrose, 0 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Konjac flour</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Grains</td>
           <td>—</td>
           <td class="notes">Glucomannan flour from konjac root; starch-free thickener or baking ingredient. Also sold as konjak flour.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Lactose (milk sugar)</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Sugars and sweeteners</td>
           <td>lactose</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Lamb</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Lard</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fats</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Leek</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 fresh raw 0.5 g sucrose, 0 g starch.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Legumes (black beans, chickpeas, lentils, etc.)</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Vegetables</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Lemon</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Lettuce</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Levulose</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sugars and sweeteners</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Lime</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Loganberry</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Loquat</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">English Table 1. AFCD R3 peeled raw 0 g sucrose, 0 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Lychee</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">Fresh peeled. English Table 1. AFCD R3 1.0 g sucrose, 0 g starch (frozen 1.1 g sucrose — just over low).</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Macadamia</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">English Table 4 — 4.5 g sucrose/100 g; ~22 g for 1 g sucrose.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Maltose (grain sugar)</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Sugars and sweeteners</td>
           <td>maltose</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Mandarin</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
           <td>sucrose</td>
-          <td class="notes">Includes clementines and tangerines. Not on Ideal Nutrition elimination allow list; CSID Cares — few CSID patients tolerate mandarin oranges.</td>
+          <td class="notes">Includes clementines and tangerines. Not on English Table 1. CSID Cares — few CSID patients tolerate mandarin oranges.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Mango</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">AFCD R3 peeled raw 8.4 g sucrose, 0.5 g starch. English Table 3 — about 1 tbsp diced for ~1 g sucrose.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Margarine or diet spread (no whey or milk solids)</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fats</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Margarine with whey or milk solids</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fats</td>
           <td>lactose</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Meat drippings</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fats</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Melon</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">Unspecified melon. Yellow-skin honeydew is allow; white-skin honeydew, rockmelon, and watermelon are not Table 1.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Milk and milk products (general)</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Milk and milk products</td>
           <td>lactose, sucrose</td>
           <td class="notes">Avoid except hard cheese, plain unsweetened Greek yoghurt, and unsweetened lactose-free or plant milks listed above</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Millet</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Monk fruit sugar</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sugars and sweeteners</td>
           <td>—</td>
           <td class="notes">Lactose-free sugar substitute; moderation. Check labels — granulated blends often contain maltodextrin (starch); pure liquid extract or dextrose blends tolerated better.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Mulberry</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">English Table 1. AFCD R3 raw 0 g sucrose, 0 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Mushroom</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Mustard (wholegrain, Dijon)</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Other</td>
           <td>—</td>
           <td class="notes">Plain mustard only; check labels for added sugar, malt vinegar, or wheat flour (some brands).</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Oats</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Okra</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Vegetables</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Olive oil</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fats</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Olives</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 green or black, drained 0 g sucrose, 0 g starch. Check for sugary marinades.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Orange</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
           <td>sucrose</td>
-          <td class="notes">Sweet oranges (navel, Valencia, etc.). Not on Ideal Nutrition elimination allow list; CSID Cares — few CSID patients tolerate oranges.</td>
+          <td class="notes">Navel/Valencia. AFCD R3 peeled 4.2 g sucrose, 0 g starch. English Table 3 — about ¼ medium orange for ~1 g sucrose.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="bad" data-change="changed">
           <td>Papaya</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
-          <td>sucrose</td>
-          <td class="notes">—</td>
+          <td>—</td>
+          <td class="notes">Pawpaw/papaya. English Table 1. AFCD R3 peeled raw 0 g sucrose, 0 g starch (red and yellow papaya also 0 g sucrose). Ideal Nutrition Step 1 listed papaya as avoid (US lists).</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Parsley</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Parsnip</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
-          <td>Passion fruit</td>
-          <td><span class="badge good">Good</span></td>
+        <tr data-status="good" data-phase1="good" data-change="">
+          <td>Passionfruit</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
           <td>—</td>
-          <td class="notes">—</td>
+          <td class="notes">English traffic-light moderate (AFCD R3 raw 1.4 g sucrose / 100 g, 0 g starch — above the ≤1 g low band). Kept as allow from Ideal Nutrition Step 1. Canned pulp is very high sucrose — fresh only; watch portion size.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Peach</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">AFCD R3 yellow unpeeled 5.2 g sucrose, 0.3 g starch. English Table 3 — about ⅛ medium peach for ~1 g sucrose.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="none" data-change="added">
+          <td>Peanut</td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td>Nuts and seeds</td>
+          <td>sucrose</td>
+          <td class="notes">English Table 4 — 5.1 g sucrose/100 g; ~19 g for 1 g sucrose.</td>
+        </tr>
+        <tr data-status="good" data-phase1="bad" data-change="changed">
           <td>Pear</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
-          <td>sucrose</td>
-          <td class="notes">—</td>
+          <td>—</td>
+          <td class="notes">Green-skin, Packham, William Bartlett, nashi, and canned-in-juice. English Table 1. AFCD R3 sucrose 0.5–0.8 g/100 g, starch ≤0.2 g. Brown-skin pear is 2.4 g sucrose — treat as higher, not this allow entry. Ideal Nutrition Step 1 listed pear as avoid.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Pecan</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">English Table 4 — 4.3 g sucrose/100 g; ~23 g for 1 g sucrose.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Persimmon</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">English Table 1. AFCD R3 peeled raw 0.2 g sucrose, 0 g starch. CSID Cares lists persimmon as some patients.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="none" data-change="added">
+          <td>Pine nuts</td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td>Nuts and seeds</td>
+          <td>sucrose</td>
+          <td class="notes">English Table 4 — 3.4 g sucrose/100 g; ~29 g for 1 g sucrose.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Pineapple</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">AFCD R3 peeled raw 5.4 g sucrose, 0 g starch. English Table 3 — about ⅛ cup diced for ~1 g sucrose.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Pistachio</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">English Table 4 — 5.9 g sucrose/100 g; ~17 g for 1 g sucrose.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Pomegranate</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">English Table 1. AFCD R3 peeled raw 0 g sucrose, 0 g starch. High fibre (~10 g per 150 g serve).</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Pork</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Pork rind</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">Plain fried or roasted pig skin only; negligible sucrose and starch. Check labels for breading, maltodextrin, sugar, or wheat flour in flavoured brands.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Potato (all types)</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Vegetables</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Prickly pear</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">English Table 1. AFCD R3 peeled raw 0.2 g sucrose, 0 g starch.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Processed meat</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Meat and meat substitutes</td>
           <td>sucrose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
-          <td>Pumpkin</td>
-          <td><span class="badge bad">Bad</span></td>
-          <td>Vegetables</td>
-          <td>maltose, starch</td>
-          <td class="notes">—</td>
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Psyllium</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Nuts and seeds</td>
+          <td>—</td>
+          <td class="notes">English Table 5. AFCD R3 uncooked 0 g sucrose, 1 g starch per 100 g. Start at ~5 g.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
+          <td>Pumpkin</td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td>Vegetables</td>
+          <td>sucrose</td>
+          <td class="notes">Unspecified/mixed pumpkin. AFCD R3 peeled raw 3.2 g sucrose, 0.7 g starch. English Table 3 — about 3 tbsp cooked for ~1 g sucrose. Kent and Jarrahdale are allow; butternut is 4.7 g sucrose, 1.7 g starch.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Pumpkin seeds</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">English Table 4 — 1.3 g sucrose/100 g; ~75 g for 1 g sucrose. AFCD R3 hulled dried 1.3 g sucrose, 0.8 g starch.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Quince</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">English Table 1. AFCD R3 peeled raw 0.5 g sucrose, 0 g starch. Plain only — quince paste is concentrated sucrose.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Quinoa</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Radish</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Raisin</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">English Table 1. AFCD R3 0.1 g sucrose, 0.3 g starch. Portion still matters — dried fruit is easy to overeat.</td>
+        </tr>
+        <tr data-status="good" data-phase1="bad" data-change="changed">
           <td>Raspberry</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">Fresh or unsweetened frozen. English Table 1. AFCD R3 raw 0.5 g sucrose, 0.2 g starch. Canned in syrup is higher sucrose — avoid. Ideal Nutrition Step 1 listed raspberry as avoid.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
+          <td>Red onion</td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td>Vegetables</td>
+          <td>sucrose</td>
+          <td class="notes">AFCD R3 raw 1.1 g sucrose, 0 g starch (just above the 1 g low band). White onion is allow.</td>
+        </tr>
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Rhubarb</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">Stalk only, unsweetened. English Table 1. AFCD R3 raw 0.1 g sucrose, 0 g starch. Stewed with sugar is high sucrose.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
+          <td>Rice</td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td>Grains</td>
+          <td>maltose, starch</td>
+          <td class="notes">—</td>
+        </tr>
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Rocket</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 fresh raw 0 g sucrose, 0 g starch.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
+          <td>Rockmelon</td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Fruits</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">Cantaloupe. Not on English Table 1. AFCD R3 peeled raw 2.0 g sucrose, 0 g starch (moderate/higher boundary). CSID Cares — few patients.</td>
         </tr>
-        <tr data-status="bad">
-          <td>Red onion</td>
-          <td><span class="badge bad">Bad</span></td>
-          <td>Vegetables</td>
-          <td>sucrose, starch</td>
-          <td class="notes">Red/purple bulb onion. Same CSID concerns as yellow/brown onion; ANTHC and CSID Cares list onions among least tolerated.</td>
-        </tr>
-        <tr data-status="bad">
-          <td>Rice</td>
-          <td><span class="badge bad">Bad</span></td>
-          <td>Grains</td>
-          <td>maltose, starch</td>
-          <td class="notes">—</td>
-        </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Rolled oats</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Rye</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Saccharine</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Sugars and sweeteners</td>
           <td>—</td>
           <td class="notes">Lactose-free sugar substitute; moderation</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Safflower oil</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fats</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Salted plum</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">English Table 1 (≤1 g sucrose and starch / 100 g). Check labels for added sugar.</td>
+        </tr>
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Scallopini squash</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.1 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Sea salt</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Other</td>
           <td>—</td>
           <td class="notes">Pure sodium chloride; no sucrose, lactose, maltose, or starch. Table salt is equivalent.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Seaweed</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 boiled drained 0 g sucrose, 0.4 g starch. Dried nori is ~2 g starch/100 g — keep serves small.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Sesame seeds</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">Whole seeds still portion-limited in Step 1 lists. Tahini is listed separately as allow (0.7 g sucrose/100 g).</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Shallot</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2. AFCD R3 peeled raw 0 g sucrose, 0 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Shellfish</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Shirataki noodles</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Grains</td>
           <td>—</td>
           <td class="notes">Konjac (glucomannan) noodles; essentially starch-free. Check labels for added starches or sugars.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Silverbeet</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">English Table 2 (silver beet). AFCD R3 fresh raw 0 g sucrose, 0 g starch. Same plant as Swiss chard.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Smoked meat</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Spelt</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Spices and herbs</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Other</td>
           <td>—</td>
           <td class="notes">Enjoy freely</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Spinach</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Squash (winter and starchy types)</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Vegetables</td>
           <td>maltose, starch</td>
-          <td class="notes">e.g. butternut, acorn, pumpkin. Summer squash (zucchini, yellow squash) listed separately as good.</td>
+          <td class="notes">e.g. butternut (AFCD 4.7 g sucrose, 1.7 g starch raw), Queensland blue, acorn. Kent, Jarrahdale, zucchini, button and scallopini squash are listed separately as good.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="bad" data-change="changed">
           <td>Strawberry</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fruits</td>
-          <td>sucrose</td>
-          <td class="notes">—</td>
+          <td>—</td>
+          <td class="notes">Fresh or unsweetened frozen. English Table 1. AFCD R3 raw 0 g sucrose, 0.1 g starch. Canned in syrup is higher sucrose — avoid. Ideal Nutrition Step 1 listed strawberry as avoid.</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Sucrose (table sugar)</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Sugars and sweeteners</td>
           <td>sucrose</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Sunflower oil</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Fats</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Sunflower seeds</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">English Table 4 — 2.1 g sucrose/100 g; ~47 g for 1 g sucrose.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Swede</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">Rutabaga. English Table 2. AFCD R3 peeled raw 0.2 g sucrose, 0.3 g starch.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Swiss chard</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Syrups</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Sugars and sweeteners</td>
           <td>sucrose, maltose</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Tahini</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Nuts and seeds</td>
+          <td>—</td>
+          <td class="notes">Sesame seed paste. English Table 4/5. AFCD R3 0.7 g sucrose, 0.3 g starch per 100 g. ~30 g serve for fibre; 140 g would be 1 g sucrose.</td>
+        </tr>
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Tempeh</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Tofu</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Tomato</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Triticale</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Turkey</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Turnip</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Unsweetened lactose-free milk</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Milk and milk products</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Unsweetened nut milk</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Milk and milk products</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Unsweetened soy milk</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Milk and milk products</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Walnut</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Nuts and seeds</td>
           <td>sucrose</td>
-          <td class="notes">—</td>
+          <td class="notes">English Table 4 — 2.7 g sucrose/100 g; ~37 g for 1 g sucrose.</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Watercress</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="bad" data-phase1="none" data-change="added">
+          <td>Watermelon</td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td>Fruits</td>
+          <td>sucrose</td>
+          <td class="notes">Not on English Table 1. AFCD R3 peeled raw 2.2 g sucrose, 0.3 g starch. Table 3 — about ¼ cup diced for ~1 g sucrose.</td>
+        </tr>
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>Wax jambu</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Fruits</td>
+          <td>—</td>
+          <td class="notes">English Table 1. AFCD R3 raw 0 g sucrose, 0 g starch.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>Wheat</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="bad">
+        <tr data-status="good" data-phase1="none" data-change="added">
+          <td>White onion</td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col">—</td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td>Vegetables</td>
+          <td>—</td>
+          <td class="notes">Mature white-skinned bulb. English Table 2. AFCD R3 peeled raw 0.9 g sucrose, 0 g starch. Brown (1.9 g) and red (1.1 g) raw stay above the low band.</td>
+        </tr>
+        <tr data-status="bad" data-phase1="bad" data-change="">
           <td>White rice</td>
-          <td><span class="badge bad">Bad</span></td>
+          <td class="col-status"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
+          <td class="phase-col"><span class="badge bad">Bad</span></td>
           <td>Grains</td>
           <td>maltose, starch</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Wild game</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Meat and meat substitutes</td>
           <td>—</td>
           <td class="notes">—</td>
         </tr>
-        <tr data-status="good">
+        <tr data-status="good" data-phase1="good" data-change="">
           <td>Zucchini</td>
-          <td><span class="badge good">Good</span></td>
+          <td class="col-status"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
+          <td class="phase-col"><span class="badge good">Good</span></td>
           <td>Vegetables</td>
           <td>—</td>
-          <td class="notes">Summer squash; low starch. Ideal Nutrition lists all squash as avoid — other CSID sources treat summer and winter squash separately.</td>
+          <td class="notes">Green-skin and golden. English Table 2. AFCD R3 0 g sucrose, 0 g starch. Ideal Nutrition listed all squash as avoid.</td>
         </tr>
         </tbody>
       </table>
     </div>
-    <p class="intro"><strong>Total:</strong> 159 foods (88 good, 71 bad)</p>
+    <p class="intro"><strong>Total:</strong> 207 foods (134 good, 73 bad).
+    <a href="changes.html">Foods that changed from Phase 1 to Phase 2</a>.</p>
 
   </main>
   <footer>
-    <p>Baseline: <a href="https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/">Ideal Nutrition — CSID management guide</a>.
-    Tiered tolerance: <a href="https://www.csidcares.org/treatment/diet/">CSID Cares — Choosing Your Foods</a>.</p>
-    <p>Individual tolerance varies. Reintroduce foods one at a time after 2–4 weeks on elimination.</p>
+    <p>Australia (Phase 2): <a href="https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia">English — SID in Australia (AUSNUT 2023)</a>.
+    Step 1 baseline: <a href="https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/">Ideal Nutrition — CSID management guide</a>.
+    Tiered US lists: <a href="https://www.csidcares.org/treatment/diet/">CSID Cares — Choosing Your Foods</a>.</p>
+    <p>Individual tolerance varies. Test portions; cultivar and country of composition matter.</p>
   </footer>
   <script src="search.js"></script>
 </body>

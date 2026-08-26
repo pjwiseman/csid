@@ -1,16 +1,33 @@
-# CSID food lists — disaccharide-free elimination phase baseline
-# Source: https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
-# Individual tolerance varies; use reintroduction testing to personalise.
+# CSID food lists — Phase 2 Australian SSRD expansion
+# Australia primary: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+# Elimination baseline (Step 1): https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
+# Individual tolerance varies; use portion testing to personalise.
 
 meta:
-  source: "Ideal Nutrition — CSID: How To Manage Sucrase-Isomaltase Deficiency"
-  source_url: "https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/"
-  phase: "disaccharide-free elimination (Step 1)"
+  source: "English — What Can I Eat With Sucrase-Isomaltase Deficiency in Australia (AUSNUT 2023 / AFCD)"
+  source_url: "https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia"
+  phase: "Phase 2 — Australian SSRD expansion (low sucrose and starch ≤1 g/100 g, plus portion testing)"
   note: >
-    These lists reflect a strict elimination baseline. Many adults tolerate some
-    sucrose, maltose, and starch after reintroduction testing (Steps 2–3).
+    Phase 2 uses Australian food-composition data (English et al., AUSNUT 2023 framework;
+    sucrose/maltose/starch verified from FSANZ AFCD Release 3). Foods with ≤1 g sucrose AND
+    ≤1 g starch per 100 g are treated as allow. Ideal Nutrition Step 1 elimination remains
+    the historical baseline; overseas CSID lists often differ because they use US composition.
+    Table 3–5 foods above the per-100 g low threshold stay avoid unless a defined portion
+    is being tested. Individual enzyme activity, meal load, and FODMAPs still matter.
   research_sources:
-    - title: Ideal Nutrition — CSID management guide (primary baseline)
+    - title: English — What can I eat with SID in Australia (primary for Australia, Phase 2)
+      url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      use: AUSNUT 2023 traffic-light sucrose/starch; AU cultivar lists; 1 g sucrose portions
+    - title: English, Mueller, Radd-Vagenas — SSRD Dataset Australia (Bond University)
+      url: https://research.bond.edu.au/en/datasets/ssrd-dataset-australia/
+      use: Full traffic-light dataset extracted from AUSNUT 2023; paper Frontline Gastroenterology 2026
+    - title: FSANZ Australian Food Composition Database (AFCD) Release 3
+      url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+      use: Per-100 g sucrose, maltose, and starch for Australian foods (AUSNUT 2023 published survey file reports starch and total sugars, not sucrose)
+    - title: FSANZ AUSNUT 2023
+      url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/ausnut/data-files
+      use: Australian survey food list; starch and total sugars per 100 g
+    - title: Ideal Nutrition — CSID management guide (Step 1 elimination baseline)
       url: https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
       use: Strict disaccharide-free elimination lists; reintroduction protocol
     - title: CSID Cares — Choosing Your Foods (Sucraid manufacturer)
@@ -191,15 +208,171 @@ foods:
   - name: Lime
     group: fruits
     status: good
-  - name: Passion fruit
+  - name: Passionfruit
     group: fruits
     status: good
+    notes: English traffic-light moderate (AFCD R3 raw 1.4 g sucrose / 100 g, 0 g starch — above the ≤1 g low band). Kept as allow from Ideal Nutrition Step 1. Canned pulp is very high sucrose — fresh only; watch portion size.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+      - title: Ideal Nutrition — CSID management guide
+        url: https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
+  - name: Honeydew (yellow skin)
+    group: fruits
+    status: good
+    notes: Golden/yellow-skin honeydew. English Table 1 (≤1 g sucrose and starch / 100 g). AFCD R3 peeled raw 1.0 g sucrose, 0 g starch, 0 g maltose. White-skin honeydew is 3.9 g sucrose — listed separately as avoid. USDA ~2.5 g/100 g is a US blend, not this cultivar.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Papaya
+    group: fruits
+    status: good
+    notes: Pawpaw/papaya. English Table 1. AFCD R3 peeled raw 0 g sucrose, 0 g starch (red and yellow papaya also 0 g sucrose). Ideal Nutrition Step 1 listed papaya as avoid (US lists).
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Pear
+    group: fruits
+    status: good
+    notes: Green-skin, Packham, William Bartlett, nashi, and canned-in-juice. English Table 1. AFCD R3 sucrose 0.5–0.8 g/100 g, starch ≤0.2 g. Brown-skin pear is 2.4 g sucrose — treat as higher, not this allow entry. Ideal Nutrition Step 1 listed pear as avoid.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Raspberry
+    group: fruits
+    status: good
+    notes: Fresh or unsweetened frozen. English Table 1. AFCD R3 raw 0.5 g sucrose, 0.2 g starch. Canned in syrup is higher sucrose — avoid. Ideal Nutrition Step 1 listed raspberry as avoid.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Strawberry
+    group: fruits
+    status: good
+    notes: Fresh or unsweetened frozen. English Table 1. AFCD R3 raw 0 g sucrose, 0.1 g starch. Canned in syrup is higher sucrose — avoid. Ideal Nutrition Step 1 listed strawberry as avoid.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Lychee
+    group: fruits
+    status: good
+    notes: Fresh peeled. English Table 1. AFCD R3 1.0 g sucrose, 0 g starch (frozen 1.1 g sucrose — just over low).
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Loquat
+    group: fruits
+    status: good
+    notes: English Table 1. AFCD R3 peeled raw 0 g sucrose, 0 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Mulberry
+    group: fruits
+    status: good
+    notes: English Table 1. AFCD R3 raw 0 g sucrose, 0 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Persimmon
+    group: fruits
+    status: good
+    notes: English Table 1. AFCD R3 peeled raw 0.2 g sucrose, 0 g starch. CSID Cares lists persimmon as some patients.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Pomegranate
+    group: fruits
+    status: good
+    notes: English Table 1. AFCD R3 peeled raw 0 g sucrose, 0 g starch. High fibre (~10 g per 150 g serve).
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Prickly pear
+    group: fruits
+    status: good
+    notes: English Table 1. AFCD R3 peeled raw 0.2 g sucrose, 0 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Quince
+    group: fruits
+    status: good
+    notes: English Table 1. AFCD R3 peeled raw 0.5 g sucrose, 0 g starch. Plain only — quince paste is concentrated sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Raisin
+    group: fruits
+    status: good
+    notes: English Table 1. AFCD R3 0.1 g sucrose, 0.3 g starch. Portion still matters — dried fruit is easy to overeat.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Rhubarb
+    group: fruits
+    status: good
+    notes: Stalk only, unsweetened. English Table 1. AFCD R3 raw 0.1 g sucrose, 0 g starch. Stewed with sugar is high sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Salted plum
+    group: fruits
+    status: good
+    notes: English Table 1 (≤1 g sucrose and starch / 100 g). Check labels for added sugar.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+  - name: Wax jambu
+    group: fruits
+    status: good
+    notes: English Table 1. AFCD R3 raw 0 g sucrose, 0 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
 
   # --- Fruits (bad) ---
   - name: Apple
     group: fruits
     status: bad
     concerns: [sucrose]
+    notes: Above the ≤1 g/100 g low band. AFCD R3 Fuji unpeeled 1.1 g sucrose, 0 g starch. English Table 3 — about ½ medium Fuji (~75 g) for ~1 g sucrose if testing portions.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Apricot
     group: fruits
     status: bad
@@ -211,7 +384,13 @@ foods:
   - name: Date
     group: fruits
     status: bad
-    concerns: [sucrose]
+    concerns: [sucrose, starch]
+    notes: Not on English Table 1. AFCD R3 dried 0 g sucrose, 1.3 g starch. Table 5 lists a 30 g dried date serve for fibre if starch at that portion is tolerated.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Grapefruit
     group: fruits
     status: bad
@@ -220,11 +399,17 @@ foods:
     group: fruits
     status: bad
     concerns: [sucrose]
+    notes: AFCD R3 peeled raw 8.4 g sucrose, 0.5 g starch. English Table 3 — about 1 tbsp diced for ~1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Mandarin
     group: fruits
     status: bad
     concerns: [sucrose]
-    notes: Includes clementines and tangerines. Not on Ideal Nutrition elimination allow list; CSID Cares — few CSID patients tolerate mandarin oranges.
+    notes: Includes clementines and tangerines. Not on English Table 1. CSID Cares — few CSID patients tolerate mandarin oranges.
     sources:
       - title: CSID Cares — Choosing Your Foods
         url: https://www.csidcares.org/treatment/diet/
@@ -232,38 +417,69 @@ foods:
     group: fruits
     status: bad
     concerns: [sucrose]
+    notes: Unspecified melon. Yellow-skin honeydew is allow; white-skin honeydew, rockmelon, and watermelon are not Table 1.
+  - name: Honeydew (white skin)
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+    notes: AFCD R3 peeled raw 3.9 g sucrose, 0 g starch. Generic “honey dew, peeled” 2.3 g sucrose. Only yellow-skin honeydew meets English ≤1 g/100 g. USDA ~2.5 g/100 g is a US figure, not AU yellow-skin.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Rockmelon
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+    notes: Cantaloupe. Not on English Table 1. AFCD R3 peeled raw 2.0 g sucrose, 0 g starch (moderate/higher boundary). CSID Cares — few patients.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+      - title: CSID Cares — Choosing Your Foods
+        url: https://www.csidcares.org/treatment/diet/
+  - name: Watermelon
+    group: fruits
+    status: bad
+    concerns: [sucrose]
+    notes: Not on English Table 1. AFCD R3 peeled raw 2.2 g sucrose, 0.3 g starch. Table 3 — about ¼ cup diced for ~1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Orange
     group: fruits
     status: bad
     concerns: [sucrose]
-    notes: Sweet oranges (navel, Valencia, etc.). Not on Ideal Nutrition elimination allow list; CSID Cares — few CSID patients tolerate oranges.
+    notes: Navel/Valencia. AFCD R3 peeled 4.2 g sucrose, 0 g starch. English Table 3 — about ¼ medium orange for ~1 g sucrose.
     sources:
-      - title: CSID Cares — Choosing Your Foods
-        url: https://www.csidcares.org/treatment/diet/
-  - name: Papaya
-    group: fruits
-    status: bad
-    concerns: [sucrose]
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Peach
     group: fruits
     status: bad
     concerns: [sucrose]
-  - name: Pear
-    group: fruits
-    status: bad
-    concerns: [sucrose]
+    notes: AFCD R3 yellow unpeeled 5.2 g sucrose, 0.3 g starch. English Table 3 — about ⅛ medium peach for ~1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Pineapple
     group: fruits
     status: bad
     concerns: [sucrose]
-  - name: Raspberry
-    group: fruits
-    status: bad
-    concerns: [sucrose]
-  - name: Strawberry
-    group: fruits
-    status: bad
-    concerns: [sucrose]
+    notes: AFCD R3 peeled raw 5.4 g sucrose, 0 g starch. English Table 3 — about ⅛ cup diced for ~1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
 
   # --- Vegetables (good) ---
   - name: Avocado
@@ -302,9 +518,10 @@ foods:
   - name: Parsnip
     group: vegetables
     status: good
-  - name: Bell pepper (green and red)
+  - name: Bell pepper (green, red, yellow)
     group: vegetables
     status: good
+    notes: Capsicum. English Table 2. AFCD R3 green/red/yellow raw 0 g sucrose, 0 g starch.
   - name: Radish
     group: vegetables
     status: good
@@ -314,6 +531,10 @@ foods:
   - name: Swiss chard
     group: vegetables
     status: good
+  - name: Silverbeet
+    group: vegetables
+    status: good
+    notes: English Table 2 (silver beet). AFCD R3 fresh raw 0 g sucrose, 0 g starch. Same plant as Swiss chard.
   - name: Tomato
     group: vegetables
     status: good
@@ -349,17 +570,241 @@ foods:
   - name: Asian greens (e.g. bok choy)
     group: vegetables
     status: good
+    notes: Includes choy sum, Chinese/Napa/mustard cabbage. English Table 2. AFCD R3 bok choy 0 g sucrose, 0 g starch.
   - name: Zucchini
     group: vegetables
     status: good
-    notes: Summer squash; low starch. Ideal Nutrition lists all squash as avoid — other CSID sources treat summer and winter squash separately.
+    notes: Green-skin and golden. English Table 2. AFCD R3 0 g sucrose, 0 g starch. Ideal Nutrition listed all squash as avoid.
     sources:
-      - title: ANTHC CSID Store-Bought Food Guide
-        url: https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf
-      - title: CSID Made Simple — food list
-        url: https://csidmadesimple.com/csid-food-list/
-      - title: Jenna Volpe RDN — low sucrose foods list
-        url: https://wholeisticliving.com/2023/01/16/low-sucrose-foods-list/
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Kent pumpkin
+    group: vegetables
+    status: good
+    notes: Jap/Kent pumpkin. English Table 2. AFCD R3 peeled raw 0.8 g sucrose, 0.5 g starch, 0 g maltose (baked 0.9 / 0.6). Butternut, Queensland blue, and unspecified pumpkin stay avoid.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Jarrahdale pumpkin
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 peeled raw 0 g sucrose, 0 g starch (baked/boiled still 0 / 0). Not butternut or generic pumpkin.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Broccolini
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.7 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Asparagus
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 green raw 0.1 g sucrose, 0 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Artichoke
+    group: vegetables
+    status: good
+    notes: Globe and canned hearts. English Table 2. AFCD R3 globe raw 0.2 g sucrose, 0.4 g starch; canned hearts 0.3 / 0.1. Jerusalem artichoke is higher sucrose (~1.9 g) — not this entry.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: White onion
+    group: vegetables
+    status: good
+    notes: Mature white-skinned bulb. English Table 2. AFCD R3 peeled raw 0.9 g sucrose, 0 g starch. Brown (1.9 g) and red (1.1 g) raw stay above the low band.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Shallot
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 peeled raw 0 g sucrose, 0 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Leek
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 fresh raw 0.5 g sucrose, 0 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Fennel
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 fresh raw 0.5 g sucrose, 0 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Choko
+    group: vegetables
+    status: good
+    notes: Chayote. English Table 2. AFCD R3 peeled raw 0 g sucrose, 0.5 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Kohlrabi
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 peeled raw 0.9 g sucrose, 0 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Swede
+    group: vegetables
+    status: good
+    notes: Rutabaga. English Table 2. AFCD R3 peeled raw 0.2 g sucrose, 0.3 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Button squash
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 fresh raw 0.1 g sucrose, 0.3 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Scallopini squash
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.1 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Bamboo shoot
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 canned in water, drained 0 g sucrose, 0.5 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Chicory
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 raw 0 g sucrose, 0.1 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Endive
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.1 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Rocket
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 fresh raw 0 g sucrose, 0 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Chilli
+    group: vegetables
+    status: good
+    notes: Fresh green or red. English Table 2. AFCD R3 green 0.1 g sucrose, 0 g starch; red 0 / 0. Not chilli powder or seasoning mixes.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Olives
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 green or black, drained 0 g sucrose, 0 g starch. Check for sugary marinades.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Seaweed
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 boiled drained 0 g sucrose, 0.4 g starch. Dried nori is ~2 g starch/100 g — keep serves small.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Alfalfa sprouts
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 0 g sucrose, 0 g starch, 0.1 g maltose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Bean sprouts
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 0 g sucrose, 0.6 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Bitter melon
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.1 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Hairy melon
+    group: vegetables
+    status: good
+    notes: English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.3 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
 
   # --- Vegetables (bad) ---
   - name: Legumes (black beans, chickpeas, lentils, etc.)
@@ -374,35 +819,47 @@ foods:
     group: vegetables
     status: bad
     concerns: [maltose, starch]
-    notes: e.g. butternut, acorn, pumpkin. Summer squash (zucchini, yellow squash) listed separately as good.
+    notes: e.g. butternut (AFCD 4.7 g sucrose, 1.7 g starch raw), Queensland blue, acorn. Kent, Jarrahdale, zucchini, button and scallopini squash are listed separately as good.
   - name: Carrot
     group: vegetables
     status: bad
-    concerns: [sucrose, starch]
+    concerns: [sucrose]
+    notes: AFCD R3 mature peeled raw 4.1 g sucrose, 0.4 g starch. English Table 3 — about ¼ cup chopped for ~1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Beetroot
     group: vegetables
     status: bad
-    concerns: [sucrose, starch]
+    concerns: [sucrose]
+    notes: AFCD R3 fresh purple peeled raw 9.2 g sucrose, 0 g starch (baked 11.2 g). English Table 3 — 1–2 thin slices for ~1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Brown onion
     group: vegetables
     status: bad
-    concerns: [sucrose, starch]
-    notes: Yellow/brown bulb onion. Ideal Nutrition lists green onion only; ANTHC and CSID Cares list onions among least tolerated.
+    concerns: [sucrose]
+    notes: Yellow/brown bulb. AFCD R3 peeled raw 1.9 g sucrose, 0 g starch (moderate). White onion is allow. Fried brown onion 3.1 g sucrose.
     sources:
-      - title: CSID Cares — Choosing Your Foods
-        url: https://www.csidcares.org/treatment/diet/
-      - title: ANTHC CSID Store-Bought Food Guide
-        url: https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Red onion
     group: vegetables
     status: bad
-    concerns: [sucrose, starch]
-    notes: Red/purple bulb onion. Same CSID concerns as yellow/brown onion; ANTHC and CSID Cares list onions among least tolerated.
+    concerns: [sucrose]
+    notes: AFCD R3 raw 1.1 g sucrose, 0 g starch (just above the 1 g low band). White onion is allow.
     sources:
-      - title: CSID Cares — Choosing Your Foods
-        url: https://www.csidcares.org/treatment/diet/
-      - title: ANTHC CSID Store-Bought Food Guide
-        url: https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Green peas
     group: vegetables
     status: bad
@@ -414,7 +871,13 @@ foods:
   - name: Pumpkin
     group: vegetables
     status: bad
-    concerns: [maltose, starch]
+    concerns: [sucrose]
+    notes: Unspecified/mixed pumpkin. AFCD R3 peeled raw 3.2 g sucrose, 0.7 g starch. English Table 3 — about 3 tbsp cooked for ~1 g sucrose. Kent and Jarrahdale are allow; butternut is 4.7 g sucrose, 1.7 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Okra
     group: vegetables
     status: bad
@@ -574,59 +1037,164 @@ foods:
     status: bad
     concerns: [maltose, starch]
 
-  # --- Nuts and seeds (bad in elimination phase) ---
+  # --- Nuts and seeds (Phase 2 — low per serve vs 1 g sucrose handfuls) ---
+  - name: Chia seeds
+    group: nuts_seeds
+    status: good
+    notes: English Table 4/5. AFCD R3 0.7 g sucrose, 2.4 g starch per 100 g — use about 15 g so starch stays ≤1 g per serve.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Flaxseed
+    group: nuts_seeds
+    status: good
+    notes: Linseed. English Table 4/5. AFCD R3 1.5 g sucrose, 1.3 g starch per 100 g; ~15 g serve keeps both ≤1 g. Table 4 ~65 g for 1 g sucrose is a large amount — start smaller.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Tahini
+    group: nuts_seeds
+    status: good
+    notes: Sesame seed paste. English Table 4/5. AFCD R3 0.7 g sucrose, 0.3 g starch per 100 g. ~30 g serve for fibre; 140 g would be 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+  - name: Psyllium
+    group: nuts_seeds
+    status: good
+    notes: English Table 5. AFCD R3 uncooked 0 g sucrose, 1 g starch per 100 g. Start at ~5 g.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+
+  # --- Nuts and seeds (still portion-limited; above ≤1 g sucrose / 100 g) ---
   - name: Almond
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+    notes: English Table 4 — 4.6 g sucrose/100 g; ~21 g for 1 g sucrose (small handful).
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
   - name: Almond flour
     group: nuts_seeds
     status: bad
-    concerns: [sucrose, starch]
-    notes: Ground almonds; same sucrose concern as whole almonds. Reintroduce in testing phase.
+    concerns: [sucrose]
+    notes: English Table 4 — 3.9 g sucrose/100 g; ~25 g for 1 g sucrose. Recipes using cups of almond meal add up fast.
     sources:
-      - title: CSID Made Simple — food list (Q&A on almond flour)
-        url: https://csidmadesimple.com/csid-food-list/
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
   - name: Brazil nut
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+    notes: English Table 4 — 2.1 g sucrose/100 g; ~47 g for 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
   - name: Cashew
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+    notes: English Table 4 — 5.5 g sucrose/100 g; ~18 g for 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
   - name: Hazelnut
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+    notes: English Table 4 — 4.4 g sucrose/100 g; ~22 g for 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
   - name: Macadamia
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+    notes: English Table 4 — 4.5 g sucrose/100 g; ~22 g for 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
   - name: Pecan
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+    notes: English Table 4 — 4.3 g sucrose/100 g; ~23 g for 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
   - name: Pistachio
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+    notes: English Table 4 — 5.9 g sucrose/100 g; ~17 g for 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
   - name: Pumpkin seeds
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+    notes: English Table 4 — 1.3 g sucrose/100 g; ~75 g for 1 g sucrose. AFCD R3 hulled dried 1.3 g sucrose, 0.8 g starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: FSANZ AFCD Release 3
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
   - name: Sesame seeds
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+    notes: Whole seeds still portion-limited in Step 1 lists. Tahini is listed separately as allow (0.7 g sucrose/100 g).
   - name: Sunflower seeds
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+    notes: English Table 4 — 2.1 g sucrose/100 g; ~47 g for 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
   - name: Walnut
     group: nuts_seeds
     status: bad
     concerns: [sucrose]
+    notes: English Table 4 — 2.7 g sucrose/100 g; ~37 g for 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+  - name: Peanut
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+    notes: English Table 4 — 5.1 g sucrose/100 g; ~19 g for 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+  - name: Pine nuts
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+    notes: English Table 4 — 3.4 g sucrose/100 g; ~29 g for 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+  - name: Desiccated coconut
+    group: nuts_seeds
+    status: bad
+    concerns: [sucrose]
+    notes: English Table 4 — 5.5 g sucrose/100 g; ~18 g for 1 g sucrose.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
 
   # --- Sugars (good) ---
   - name: Glucose

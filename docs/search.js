@@ -2,12 +2,14 @@
   var input = document.getElementById("food-search");
   var table = document.getElementById("foods-table");
   var countEl = document.getElementById("search-count");
-  if (!input || !table) return;
-
-  var rows = Array.prototype.slice.call(table.querySelectorAll("tbody tr"));
+  var toggle = document.getElementById("show-phases");
+  var rows = table
+    ? Array.prototype.slice.call(table.querySelectorAll("tbody tr"))
+    : [];
 
   function filter() {
-    var q = input.value.trim().toLowerCase();
+    if (!table) return;
+    var q = input ? input.value.trim().toLowerCase() : "";
     var visible = 0;
 
     rows.forEach(function (row) {
@@ -25,6 +27,28 @@
     }
   }
 
-  input.addEventListener("input", filter);
-  filter();
+  function applyPhases() {
+    var on = !!(toggle && toggle.checked);
+    document.body.classList.toggle("show-phases", on);
+    try {
+      localStorage.setItem("csid-show-phases", on ? "1" : "0");
+    } catch (e) {
+      /* ignore */
+    }
+  }
+
+  if (toggle) {
+    try {
+      toggle.checked = localStorage.getItem("csid-show-phases") === "1";
+    } catch (e) {
+      /* ignore */
+    }
+    toggle.addEventListener("change", applyPhases);
+    applyPhases();
+  }
+
+  if (input && table) {
+    input.addEventListener("input", filter);
+    filter();
+  }
 })();

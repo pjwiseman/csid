@@ -1,8 +1,8 @@
-# Bad foods (CSID elimination baseline)
+# Bad foods (CSID Phase 2 — Australia)
 
-Foods to **avoid** during a disaccharide-free elimination diet (Step 1). Many adults can tolerate some of these after structured reintroduction testing.
+Foods **above** the Australian low band (≤1 g sucrose **and** ≤1 g starch per 100 g). Some have a calculated ~1 g sucrose portion for testing — see [data/foods.yaml](../data/foods.yaml) notes.
 
-Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/)
+Primary: [English — SID in Australia](https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia)
 
 ## Fats
 
@@ -16,19 +16,20 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 
 ## Fruits
 
-- Apple, apricot, banana, dates, grapefruit
-- Mango, mandarin, melons, orange, papaya, peach, pear
-- Pineapple, raspberry, strawberry
+- Apple (Fuji ~½ medium for 1 g sucrose if testing), apricot, banana, dates, grapefruit
+- Mango, mandarin, unspecified melon, honeydew (**white skin**), rockmelon, watermelon
+- Orange, peach, pineapple
+- Brown-skin pear (green/Packham/nashi pears are on the good list)
 
 ## Vegetables
 
 - All legumes (black beans, chickpeas, lentils, etc.)
-- Potato (all types), winter squash (e.g. butternut, acorn, pumpkin)
+- Potato (all types), winter squash (e.g. butternut, acorn), unspecified pumpkin (not Kent/Jarrahdale)
 - Carrot, beetroot, brown onion, red onion, green peas, corn, okra
 
 ## Grains
 
-**None** during elimination. Avoid all grain flours and:
+**None** on the low-low band. Avoid all grain flours and:
 
 - Wheat, amaranth, barley, buckwheat, bulgur
 - Corn, couscous, millet, oats, rolled oats, quinoa
@@ -43,10 +44,12 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 
 ## Nuts and seeds
 
-All, including:
+Above 1 g sucrose / 100 g (small handful ≈ 1 g sucrose for many nuts):
 
-- Almond, almond flour, Brazil nut, cashew, hazelnut, macadamia, pecan, pistachio
-- Pumpkin seeds, sesame seeds, sunflower seeds, walnut
+- Almond, almond flour, Brazil nut, cashew, hazelnut, macadamia, pecan, pistachio, peanut, pine nuts
+- Pumpkin seeds, sesame seeds, sunflower seeds, walnut, desiccated coconut
+
+Chia, flaxseed, tahini, and psyllium are on [good-foods.md](./good-foods.md) at typical small serves.
 
 ## Sugars and sweeteners
 
@@ -63,7 +66,5 @@ All, including:
 | High-sucrose fruits         | Sucrose                          |
 | Starchy vegetables & grains | Maltose, isomaltose, starch      |
 | Dairy (most)                | Lactose                          |
-| Nuts and seeds              | Sucrose (reintroduce in testing) |
+| Nuts and seeds              | Sucrose (portion-test)           |
 | Added sugars & syrups       | Sucrose, maltose                 |
-
-

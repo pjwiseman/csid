@@ -15,20 +15,23 @@ This project is for CSID (Congenital Sucrase-Isomaltase Deficiency): tracking an
 
 ## Default reference
 
-When CSID, sucrase-isomaltase deficiency, nutritional management, or related food/diet context is needed, default to:
+**Australia (Phase 2):** default to [English — What Can I Eat With Sucrase-Isomaltase Deficiency in Australia](https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia) and Australian composition (AUSNUT 2023 framework; sucrose/maltose/starch from [FSANZ AFCD](https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files)). Local copy of the English article may exist at `uploads/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia-0.md`.
 
-https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
+English traffic lights (per 100 g, sucrose and starch independently): low ≤1 g, moderate >1–≤2 g, higher >2 g. Foods with **≤1 g sucrose AND ≤1 g starch per 100 g** are treated as allow unless the user says otherwise. The published AUSNUT 2023 survey nutrient file reports starch and total sugars, not sucrose — use AFCD Release 3 (or the Bond SSRD dataset) for sucrose.
 
-A local copy may exist at `uploads/csid-how-to-manage-sucrase-isomaltase-deficiency-0.md` in the Cursor project uploads folder. Prefer the live URL when fetching; use the local copy when offline or for quick lookup.
+**Step 1 elimination baseline:** [Ideal Nutrition CSID guide](https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/). Local copy may exist at `uploads/csid-how-to-manage-sucrase-isomaltase-deficiency-0.md`.
 
-For tiered tolerance lists (most / some / few CSID patients) and food-composition guidance, also use [CSID Cares — Choosing Your Foods](https://www.csidcares.org/treatment/diet/). Local copy may exist at `uploads/diet-0.md`.
+For US/overseas tiered tolerance lists (most / some / few CSID patients), also use [CSID Cares — Choosing Your Foods](https://www.csidcares.org/treatment/diet/). Local copy may exist at `uploads/diet-0.md`.
 
 ## Researching food classifications
 
-Use Ideal Nutrition as the **primary baseline**. When a food is missing, ambiguous, or conflicts with the baseline, consult `meta.research_sources` in [data/foods.yaml](../data/foods.yaml) and cross-check before classifying.
+For Australian foods and Phase 2, use **English / AUSNUT / AFCD as primary**. Use Ideal Nutrition for Step 1 elimination history and when AU data are missing. When a food is missing, ambiguous, or conflicts, consult `meta.research_sources` in [data/foods.yaml](../data/foods.yaml) and cross-check before classifying. Note cultivar conflicts (e.g. yellow-skin vs white-skin honeydew; Kent/Jarrahdale vs butternut pumpkin).
 
 | Source | Best for |
 | --- | --- |
+| [English — SID in Australia](https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia) | Australian primary; AUSNUT 2023 traffic lights; Kent/Jarrahdale pumpkin; yellow-skin honeydew; 1 g sucrose portions |
+| [SSRD Dataset Australia](https://research.bond.edu.au/en/datasets/ssrd-dataset-australia/) | Full English et al. AUSNUT-derived spreadsheet |
+| [FSANZ AFCD Release 3](https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files) | Sucrose, maltose, starch g/100 g for named AU foods |
 | [Ideal Nutrition CSID guide](https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/) | Strict elimination baseline; reintroduction steps |
 | [CSID Cares — Choosing Your Foods](https://www.csidcares.org/treatment/diet/) | Tiered fruit/vegetable/dairy tolerance; food diary; composition tables |
 | [ANTHC CSID Store-Bought Food Guide (PDF)](https://anthc.org/wp-content/uploads/2025/06/CSID-Store-Bought-Food-Guide.pdf) | Usually vs least tolerated; label checks |
@@ -38,4 +41,4 @@ Use Ideal Nutrition as the **primary baseline**. When a food is missing, ambiguo
 | [Leeds NHS — CSID dietary advice](https://www.leedsth.nhs.uk/patients/resources/dietary-advice-for-congenital-sucrose-isomaltase-deficiency/) | Clinical NHS guidance; starch substitutes |
 | [Jenna Volpe RDN — low sucrose list](https://wholeisticliving.com/2023/01/16/low-sucrose-foods-list/) | Dietitian low-sucrose vegetable list |
 
-**Workflow:** (1) Check Ideal Nutrition. (2) If unclear, search the sources above. (3) Record `sources` on the food entry in `foods.yaml` when classification relies on secondary references. (4) Note conflicts (e.g. Ideal Nutrition lists all squash as avoid; ANTHC and CSID Made Simple distinguish summer vs winter squash). (5) Do not assume good/bad without a cited source or explicit user instruction.
+**Workflow:** (1) For Australian foods / Phase 2, check English then AFCD sucrose+starch. (2) Compare Ideal Nutrition Step 1 if the food was an elimination avoid. (3) If still unclear, search the overseas sources above. (4) Record `sources` on the food entry when classification relies on English/AFCD or other non-baseline references. (5) Note cultivar and country conflicts (e.g. yellow-skin vs white-skin honeydew; Kent/Jarrahdale vs butternut pumpkin). (6) Do not assume good/bad without a cited source or explicit user instruction.

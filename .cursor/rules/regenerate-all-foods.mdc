@@ -17,9 +17,9 @@ python3 scripts/generate-all-foods.py
 python3 scripts/build-site.py
 ```
 
-Include updated `lists/all-foods.md` and `docs/` in the same change set.
+Include updated `lists/all-foods.md`, `lists/phase-changes.md`, and `docs/` in the same change set.
 
-Do **not** hand-edit `lists/all-foods.md`.
+Do **not** hand-edit `lists/all-foods.md` or `lists/phase-changes.md`.
 
 ## 2. Update good/bad lists (manual)
 

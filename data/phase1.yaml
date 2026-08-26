@@ -1,0 +1,171 @@
+# Ideal Nutrition Step 1 (elimination) status, including foods added before
+# the Australian Phase 2 reassess. Names are Phase 1 names; see aliases.
+
+aliases:
+  Passionfruit: Passion fruit
+  Honeydew (yellow skin): Honeydew
+  Honeydew (white skin): Honeydew
+  Bell pepper (green, red, yellow): Bell pepper (green and red)
+
+status:
+  Canola oil: good
+  Corn oil: good
+  Flaxseed oil: good
+  Olive oil: good
+  Safflower oil: good
+  Sunflower oil: good
+  Margarine or diet spread (no whey or milk solids): good
+  Lard: good
+  Meat drippings: good
+  Butter: bad
+  Margarine with whey or milk solids: bad
+  Hard cheese (e.g. cheddar): good
+  Haloumi: good
+  Unsweetened soy milk: good
+  Unsweetened nut milk: good
+  Unsweetened lactose-free milk: good
+  Greek yoghurt (unsweetened): good
+  Flavoured yoghurt: bad
+  Milk and milk products (general): bad
+  Blackberry: good
+  Blueberry: good
+  Cranberry: good
+  Currant: good
+  Gooseberry: good
+  Loganberry: good
+  Cherry: good
+  Damson plum: good
+  Fig: good
+  Guava: good
+  Grape: good
+  Kiwi fruit: good
+  Lemon: good
+  Lime: good
+  Passion fruit: good
+  Apple: bad
+  Apricot: bad
+  Banana: bad
+  Date: bad
+  Grapefruit: bad
+  Mango: bad
+  Mandarin: bad
+  Melon: bad
+  Honeydew: bad
+  Rockmelon: bad
+  Orange: bad
+  Papaya: bad
+  Peach: bad
+  Pear: bad
+  Pineapple: bad
+  Raspberry: bad
+  Strawberry: bad
+  Avocado: good
+  Celery: good
+  Chives: good
+  Cucumber: good
+  Garlic: good
+  Green beans: good
+  Green onion: good
+  Kale: good
+  Lettuce: good
+  Mushroom: good
+  Parsley: good
+  Parsnip: good
+  Bell pepper (green and red): good
+  Radish: good
+  Spinach: good
+  Swiss chard: good
+  Tomato: good
+  Turnip: good
+  Watercress: good
+  Broccoli: good
+  Cabbage: good
+  Cauliflower: good
+  Brussels sprouts: good
+  Eggplant: good
+  Asian greens (e.g. bok choy): good
+  Zucchini: good
+  Legumes (black beans, chickpeas, lentils, etc.): bad
+  Potato (all types): bad
+  Squash (winter and starchy types): bad
+  Carrot: bad
+  Beetroot: bad
+  Brown onion: bad
+  Red onion: bad
+  Green peas: bad
+  Corn: bad
+  Pumpkin: bad
+  Okra: bad
+  Wheat: bad
+  Amaranth: bad
+  Barley: bad
+  Buckwheat: bad
+  Bulgur: bad
+  Corn (grain/flour): bad
+  Couscous: bad
+  Millet: bad
+  Oats: bad
+  Rolled oats: bad
+  Quinoa: bad
+  Rice: bad
+  White rice: bad
+  Rye: bad
+  Spelt: bad
+  Triticale: bad
+  Grain flours (general): bad
+  Shirataki noodles: good
+  Konjac flour: good
+  Lamb: good
+  Beef: good
+  Pork: good
+  Pork rind: good
+  Wild game: good
+  Chicken: good
+  Duck: good
+  Turkey: good
+  Fish: good
+  Shellfish: good
+  Egg (plain): good
+  Tofu: good
+  Tempeh: good
+  Processed meat: bad
+  Breaded meat: bad
+  Smoked meat: bad
+  Cured meat: bad
+  Canned corned beef: bad
+  Egg with added milk, flour, or sugar: bad
+  Edamame: bad
+  Almond: bad
+  Almond flour: bad
+  Brazil nut: bad
+  Cashew: bad
+  Hazelnut: bad
+  Macadamia: bad
+  Pecan: bad
+  Pistachio: bad
+  Pumpkin seeds: bad
+  Sesame seeds: bad
+  Sunflower seeds: bad
+  Walnut: bad
+  Glucose: good
+  Dextrose: good
+  Fructose: good
+  Levulose: good
+  Honey: good
+  Aspartame: good
+  Cyclamate: good
+  Saccharine: good
+  Monk fruit sugar: good
+  Sucrose (table sugar): bad
+  Lactose (milk sugar): bad
+  Maltose (grain sugar): bad
+  Foods with added sugars: bad
+  Syrups: bad
+  Jila Spearmint No Sugar Mints: good
+  Jols 99% Sugar Free Fruit Pastilles: good
+  Double D Butter Lollies (sugar free): good
+  Sea salt: good
+  Flavour enhancer 621 (MSG): good
+  Spices and herbs: good
+  Mustard (wholegrain, Dijon): good
+  Gluten-free soy sauce: good

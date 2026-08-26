@@ -1,8 +1,10 @@
-# Good foods (CSID elimination baseline)
+# Good foods (CSID Phase 2 — Australia)
 
-Foods recommended during a **disaccharide-free elimination diet** (Step 1). Individual tolerance varies — reintroduce and test before assuming long-term safety.
+Foods that meet **≤1 g sucrose and ≤1 g starch per 100 g** on Australian composition (English / AUSNUT 2023; sucrose checked in [FSANZ AFCD Release 3](https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files)), plus a few fibre foods that fit that load **per typical serve**, and **passionfruit** (English moderate, 1.4 g sucrose / 100 g). Individual tolerance still varies.
 
-Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/)
+Primary: [English — SID in Australia](https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia)
+
+Step 1 history: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/)
 
 ## Fats
 
@@ -21,20 +23,26 @@ Source: [Ideal Nutrition — CSID management guide](https://www.idealnutrition.c
 
 Fresh, frozen, or canned in own juice:
 
-- Berries: blackberry, blueberry, cranberry, currant, gooseberry, loganberry
-- Cherry, damson plum, fig, guava, grape
-- Kiwi fruit, lemon, lime, passion fruit
+- Berries: blackberry, blueberry, cranberry, currant, gooseberry, loganberry, raspberry, strawberry
+- Cherry, damson plum, fig, guava, grape, raisin
+- Kiwi fruit, lemon, lime, passionfruit
+- Honeydew (**yellow skin** only), papaya/pawpaw, pear (green, Packham, Bartlett, nashi; not brown-skin)
+- Lychee, loquat, mulberry, persimmon, pomegranate, prickly pear, quince, rhubarb (unsweetened), salted plum, wax jambu
 
 ## Vegetables
 
 Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 
-- Avocado, celery, chives, cucumber, garlic, green beans, green onion
-- Kale, lettuce, mushroom, parsley, parsnip
-- Bell pepper (green and red), radish, spinach, Swiss chard
-- Tomato, turnip, watercress
-- Broccoli, cabbage, cauliflower, Brussels sprouts, eggplant
-- Asian greens (e.g. bok choy), zucchini
+- Avocado, celery, chives, cucumber, garlic, green beans, green onion, white onion, shallot, leek
+- Kale, lettuce, rocket, endive, chicory, mushroom, parsley, parsnip
+- Bell pepper / capsicum (green, red, yellow), chilli (fresh), radish, spinach, Swiss chard, silverbeet
+- Tomato, turnip, watercress, fennel, kohlrabi, swede, choko
+- Broccoli, broccolini, cabbage, cauliflower, Brussels sprouts, eggplant, artichoke (globe), asparagus
+- Asian greens (bok choy, choy sum), bamboo shoot, alfalfa sprouts, bean sprouts
+- Zucchini (green and golden), button squash, scallopini squash
+- **Kent pumpkin**, **Jarrahdale pumpkin**
+- Olives, seaweed (prefer boiled; dried nori is starchier)
+- Bitter melon, hairy melon
 
 ## Meat and meat substitutes
 
@@ -43,6 +51,10 @@ Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 - Fish, shellfish
 - Plain eggs
 - Tofu, tempeh
+
+## Nuts and seeds (low per typical serve)
+
+- Chia seeds (~15 g), flaxseed/linseed (~15 g), tahini, psyllium (~5 g start)
 
 ## Sugars and sweeteners
 

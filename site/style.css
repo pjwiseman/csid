@@ -219,6 +219,39 @@ ul.foods li {
   margin-top: 0.35rem;
 }
 
+.toggle-row {
+  margin: 0.6rem 0 0;
+  font-size: 0.9rem;
+}
+
+.toggle-row label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.toggle-row input {
+  width: auto;
+}
+
+.phase-col {
+  display: none;
+}
+
+body.show-phases .phase-col {
+  display: table-cell;
+}
+
+body.show-phases .col-status {
+  display: none;
+}
+
+body.show-phases main {
+  max-width: 1100px;
+}
+
 .table-wrap {
   overflow-x: auto;
   border: 1px solid var(--border);
