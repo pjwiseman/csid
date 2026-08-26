@@ -538,6 +538,22 @@ foods:
   - name: Tomato
     group: vegetables
     status: good
+  - name: Tomato paste (plain)
+    group: vegetables
+    status: good
+    notes: >-
+      Stew thickener. English Table 2 tomatoes (including canned) are low-low.
+      USDA SR tomato paste 0.30 g sucrose, 0.22 g starch, 0.28 g maltose per 100 g
+      (sugars are mostly glucose and fructose). Typical 1–2 tbsp in a pot is well
+      under 1 g sucrose and starch. Use paste with tomatoes, salt, and acid only —
+      not tomato sauce/ketchup (added sugar). Check labels for sugar or starch.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: USDA FoodData Central — tomato paste, canned (FDC 170459)
+        url: https://fdc.nal.usda.gov/food-details/170459/nutrients
+      - title: Woolworths tomato paste ingredients (tomatoes, salt, acetic acid)
+        url: https://world.openfoodfacts.org/product/9300633050160/tomato-paste-woolworths
   - name: Turnip
     group: vegetables
     status: good
@@ -952,6 +968,23 @@ foods:
     group: grains
     status: bad
     concerns: [maltose, starch]
+  - name: Wheat flour (thickener)
+    group: grains
+    status: bad
+    concerns: [maltose, starch]
+    notes: >-
+      Stew/roux thickener. White wheat flour is mostly starch (USDA ~60 g starch/100 g).
+      A typical ¼ cup (~30 g) dusting adds ~18 g starch to the pot. Ideal Nutrition
+      Step 1 avoids all grain flours. Leeds NHS — use cauliflower or zucchini puree,
+      unsweetened Greek yoghurt, or cream instead; konjac flour is the starch-free
+      thickener on this list.
+    sources:
+      - title: Ideal Nutrition — CSID management guide
+        url: https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
+      - title: Leeds NHS — CSID dietary advice
+        url: https://www.leedsth.nhs.uk/patients/resources/dietary-advice-for-congenital-sucrose-isomaltase-deficiency/
+      - title: USDA FoodData Central — wheat flour, white
+        url: https://fdc.nal.usda.gov/food-details/172021/nutrients
 
   # --- Grains (good starch-free substitutes) ---
   - name: Shirataki noodles
@@ -970,6 +1003,23 @@ foods:
   - name: Beef
     group: meat
     status: good
+  - name: Beef broth (plain homemade)
+    group: meat
+    status: good
+    notes: >-
+      Homemade from beef bones/meat, water, salt, and allowed herbs/veg — English
+      treats plain meat as negligible sucrose and starch. USDA home-prepared beef
+      stock ~1.2 g carbohydrate and 0.54 g sugars per 100 g (sucrose/starch not
+      reported; likely from simmered veg). AU stock cubes/powders (e.g. Massel)
+      often list maize maltodextrin and cane sugar — treat those as avoid. Carton
+      stocks need a label check for sugar, maltodextrin, starch, or flour.
+    sources:
+      - title: English — SID in Australia
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: USDA FoodData Central — soup, stock, beef, home-prepared
+        url: https://fdc.nal.usda.gov/food-details/172883/nutrients
+      - title: CSID Cares — Reading Food Labels
+        url: https://www.csidcares.org/treatment/reading-food-labels/
   - name: Pork
     group: meat
     status: good
@@ -1319,5 +1369,36 @@ foods:
     status: good
     notes: Wheat-free tamari-style; avoids maltose/starch from wheat in regular soy sauce. Check for added sugar.
     sources:
+      - title: CSID Cares — Reading Food Labels
+        url: https://www.csidcares.org/treatment/reading-food-labels/
+  - name: Red wine (dry)
+    group: other
+    status: good
+    notes: >-
+      Dry table red for stew. USDA table red wine 0.62 g total sugars and 2.61 g
+      carbohydrate per 100 g, 0 g added sugars; residual sugar is glucose/fructose
+      (allow sweeteners), sucrose after fermentation is typically ~0. Starch 0.
+      A cup in a shared stew is a small per-serve load. Avoid sweet, fortified,
+      or “cooking wine” with added sugar. Alcohol is separate from CSID carbs.
+    sources:
+      - title: USDA FoodData Central — alcoholic beverage, wine, table, red
+        url: https://fdc.nal.usda.gov/food-details/173190/nutrients
+      - title: USDA added-sugars database — table red wine 0 g added sugars
+        url: https://www.govinfo.gov/content/pkg/GOVPUB-A77-PURL-LPS86777/pdf/GOVPUB-A77-PURL-LPS86777.pdf
+  - name: Worcestershire sauce
+    group: other
+    status: bad
+    concerns: [sucrose, maltose]
+    notes: >-
+      AU Lea & Perrins — malt vinegar (barley), molasses, and sugar; 18.8 g sugars
+      per 100 mL (~0.9 g sugars per 5 mL teaspoon). Above the 1 g sucrose/100 g
+      low band; malt vinegar is a maltose/grain concern. Ideal Nutrition Step 1
+      avoids added sugars. Skip in stew, or use a homemade mix of spirit vinegar,
+      anchovy, tamarind, garlic, and spices without sugar or molasses.
+    sources:
+      - title: Lea & Perrins Worcestershire Sauce (AU) ingredients and NIP
+        url: https://www.mocofoodservices.com.au/globalassets/moco---catalog-image/pantry/salt--pepper/32387-42637_2l-lp-sauce.pdf
+      - title: Ideal Nutrition — CSID management guide
+        url: https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
       - title: CSID Cares — Reading Food Labels
         url: https://www.csidcares.org/treatment/reading-food-labels/

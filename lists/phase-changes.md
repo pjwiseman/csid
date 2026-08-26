@@ -29,6 +29,7 @@ Not on the Phase 1 list under this name (new cultivar splits, Australian Table 1
 | Asparagus | Good | Vegetables |
 | Bamboo shoot | Good | Vegetables |
 | Bean sprouts | Good | Vegetables |
+| Beef broth (plain homemade) | Good | Meat and meat substitutes |
 | Bitter melon | Good | Vegetables |
 | Broccolini | Good | Vegetables |
 | Button squash | Good | Vegetables |
@@ -57,6 +58,7 @@ Not on the Phase 1 list under this name (new cultivar splits, Australian Table 1
 | Psyllium | Good | Nuts and seeds |
 | Quince | Good | Fruits |
 | Raisin | Good | Fruits |
+| Red wine (dry) | Good | Other |
 | Rhubarb | Good | Fruits |
 | Rocket | Good | Vegetables |
 | Salted plum | Good | Fruits |
@@ -66,8 +68,11 @@ Not on the Phase 1 list under this name (new cultivar splits, Australian Table 1
 | Silverbeet | Good | Vegetables |
 | Swede | Good | Vegetables |
 | Tahini | Good | Nuts and seeds |
+| Tomato paste (plain) | Good | Vegetables |
 | Watermelon | Bad | Fruits |
 | Wax jambu | Good | Fruits |
+| Wheat flour (thickener) | Bad | Grains |
 | White onion | Good | Vegetables |
+| Worcestershire sauce | Bad | Other |
 
-**45** added.
+**50** added.

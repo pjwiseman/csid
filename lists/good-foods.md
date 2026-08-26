@@ -36,7 +36,7 @@ Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 - Avocado, celery, chives, cucumber, garlic, green beans, green onion, white onion, shallot, leek
 - Kale, lettuce, rocket, endive, chicory, mushroom, parsley, parsnip
 - Bell pepper / capsicum (green, red, yellow), chilli (fresh), radish, spinach, Swiss chard, silverbeet
-- Tomato, turnip, watercress, fennel, kohlrabi, swede, choko
+- Tomato, tomato paste (plain — no added sugar), turnip, watercress, fennel, kohlrabi, swede, choko
 - Broccoli, broccolini, cabbage, cauliflower, Brussels sprouts, eggplant, artichoke (globe), asparagus
 - Asian greens (bok choy, choy sum), bamboo shoot, alfalfa sprouts, bean sprouts
 - Zucchini (green and golden), button squash, scallopini squash
@@ -47,6 +47,7 @@ Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 ## Meat and meat substitutes
 
 - Lamb, beef, pork, pork rind, wild game
+- Beef broth (plain homemade) — not stock cubes with maltodextrin or sugar
 - Poultry: chicken, duck, turkey
 - Fish, shellfish
 - Plain eggs
@@ -75,3 +76,4 @@ Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 - Shirataki noodles, konjac flour (starch-free substitutes for pasta and grain flour)
 - Mustard (wholegrain, Dijon) — plain only; check labels for added sugar or starch
 - Gluten-free soy sauce — wheat-free; check for added sugar
+- Red wine (dry) — stew cooking; avoid sweet or fortified wine

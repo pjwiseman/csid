@@ -24,6 +24,7 @@ Source: [English — SID in Australia](https://www.drcarolynenglish.com/post/wha
 | Barley | Bad | Grains | maltose, starch | — |
 | Bean sprouts | Good | Vegetables | — | English Table 2. AFCD R3 0 g sucrose, 0.6 g starch. |
 | Beef | Good | Meat and meat substitutes | — | — |
+| Beef broth (plain homemade) | Good | Meat and meat substitutes | — | Homemade from beef bones/meat, water, salt, and allowed herbs/veg — English treats plain meat as negligible sucrose and starch. USDA home-prepared beef stock ~1.2 g carbohydrate and 0.54 g sugars per 100 g (sucrose/starch not reported; likely from simmered veg). AU stock cubes/powders (e.g. Massel) often list maize maltodextrin and cane sugar — treat those as avoid. Carton stocks need a label check for sugar, maltodextrin, starch, or flour. |
 | Beetroot | Bad | Vegetables | sucrose | AFCD R3 fresh purple peeled raw 9.2 g sucrose, 0 g starch (baked 11.2 g). English Table 3 — 1–2 thin slices for ~1 g sucrose. |
 | Bell pepper (green, red, yellow) | Good | Vegetables | — | Capsicum. English Table 2. AFCD R3 green/red/yellow raw 0 g sucrose, 0 g starch. |
 | Bitter melon | Good | Vegetables | — | English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.1 g starch. |
@@ -167,6 +168,7 @@ Source: [English — SID in Australia](https://www.drcarolynenglish.com/post/wha
 | Raisin | Good | Fruits | — | English Table 1. AFCD R3 0.1 g sucrose, 0.3 g starch. Portion still matters — dried fruit is easy to overeat. |
 | Raspberry | Good | Fruits | — | Fresh or unsweetened frozen. English Table 1. AFCD R3 raw 0.5 g sucrose, 0.2 g starch. Canned in syrup is higher sucrose — avoid. Ideal Nutrition Step 1 listed raspberry as avoid. |
 | Red onion | Bad | Vegetables | sucrose | AFCD R3 raw 1.1 g sucrose, 0 g starch (just above the 1 g low band). White onion is allow. |
+| Red wine (dry) | Good | Other | — | Dry table red for stew. USDA table red wine 0.62 g total sugars and 2.61 g carbohydrate per 100 g, 0 g added sugars; residual sugar is glucose/fructose (allow sweeteners), sucrose after fermentation is typically ~0. Starch 0. A cup in a shared stew is a small per-serve load. Avoid sweet, fortified, or “cooking wine” with added sugar. Alcohol is separate from CSID carbs. |
 | Rhubarb | Good | Fruits | — | Stalk only, unsweetened. English Table 1. AFCD R3 raw 0.1 g sucrose, 0 g starch. Stewed with sugar is high sucrose. |
 | Rice | Bad | Grains | maltose, starch | — |
 | Rocket | Good | Vegetables | — | English Table 2. AFCD R3 fresh raw 0 g sucrose, 0 g starch. |
@@ -200,6 +202,7 @@ Source: [English — SID in Australia](https://www.drcarolynenglish.com/post/wha
 | Tempeh | Good | Meat and meat substitutes | — | — |
 | Tofu | Good | Meat and meat substitutes | — | — |
 | Tomato | Good | Vegetables | — | — |
+| Tomato paste (plain) | Good | Vegetables | — | Stew thickener. English Table 2 tomatoes (including canned) are low-low. USDA SR tomato paste 0.30 g sucrose, 0.22 g starch, 0.28 g maltose per 100 g (sugars are mostly glucose and fructose). Typical 1–2 tbsp in a pot is well under 1 g sucrose and starch. Use paste with tomatoes, salt, and acid only — not tomato sauce/ketchup (added sugar). Check labels for sugar or starch. |
 | Triticale | Bad | Grains | maltose, starch | — |
 | Turkey | Good | Meat and meat substitutes | — | — |
 | Turnip | Good | Vegetables | — | — |
@@ -211,9 +214,11 @@ Source: [English — SID in Australia](https://www.drcarolynenglish.com/post/wha
 | Watermelon | Bad | Fruits | sucrose | Not on English Table 1. AFCD R3 peeled raw 2.2 g sucrose, 0.3 g starch. Table 3 — about ¼ cup diced for ~1 g sucrose. |
 | Wax jambu | Good | Fruits | — | English Table 1. AFCD R3 raw 0 g sucrose, 0 g starch. |
 | Wheat | Bad | Grains | maltose, starch | — |
+| Wheat flour (thickener) | Bad | Grains | maltose, starch | Stew/roux thickener. White wheat flour is mostly starch (USDA ~60 g starch/100 g). A typical ¼ cup (~30 g) dusting adds ~18 g starch to the pot. Ideal Nutrition Step 1 avoids all grain flours. Leeds NHS — use cauliflower or zucchini puree, unsweetened Greek yoghurt, or cream instead; konjac flour is the starch-free thickener on this list. |
 | White onion | Good | Vegetables | — | Mature white-skinned bulb. English Table 2. AFCD R3 peeled raw 0.9 g sucrose, 0 g starch. Brown (1.9 g) and red (1.1 g) raw stay above the low band. |
 | White rice | Bad | Grains | maltose, starch | — |
 | Wild game | Good | Meat and meat substitutes | — | — |
+| Worcestershire sauce | Bad | Other | sucrose, maltose | AU Lea & Perrins — malt vinegar (barley), molasses, and sugar; 18.8 g sugars per 100 mL (~0.9 g sugars per 5 mL teaspoon). Above the 1 g sucrose/100 g low band; malt vinegar is a maltose/grain concern. Ideal Nutrition Step 1 avoids added sugars. Skip in stew, or use a homemade mix of spirit vinegar, anchovy, tamarind, garlic, and spices without sugar or molasses. |
 | Zucchini | Good | Vegetables | — | Green-skin and golden. English Table 2. AFCD R3 0 g sucrose, 0 g starch. Ideal Nutrition listed all squash as avoid. |
 
-**Total:** 207 foods (134 good, 73 bad)
+**Total:** 212 foods (137 good, 75 bad)

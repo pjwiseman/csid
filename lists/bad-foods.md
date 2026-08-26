@@ -31,7 +31,7 @@ Primary: [English — SID in Australia](https://www.drcarolynenglish.com/post/wh
 
 **None** on the low-low band. Avoid all grain flours and:
 
-- Wheat, amaranth, barley, buckwheat, bulgur
+- Wheat, wheat flour (stew thickener), amaranth, barley, buckwheat, bulgur
 - Corn, couscous, millet, oats, rolled oats, quinoa
 - Rice, white rice, rye, spelt, triticale
 
@@ -57,6 +57,10 @@ Chia, flaxseed, tahini, and psyllium are on [good-foods.md](./good-foods.md) at 
 - Lactose (milk sugar)
 - Maltose (grain sugar)
 - Foods with added sugars and syrups
+
+## Other
+
+- Worcestershire sauce (molasses, sugar, malt vinegar)
 
 ## Primary concerns by category
 
