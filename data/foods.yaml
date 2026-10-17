@@ -1371,6 +1371,23 @@ foods:
     sources:
       - title: CSID Cares — Reading Food Labels
         url: https://www.csidcares.org/treatment/reading-food-labels/
+  - name: Vegemite
+    group: other
+    status: good
+    notes: >-
+      AFCD R3 “spread, yeast, vegemite” — 0 g sucrose, 1.6 g maltose, 9.3 g starch
+      per 100 g (starch above the ≤1 g/100 g low band). A typical ~5 g scrape is
+      ~0.5 g starch and ~0.08 g maltose; about 11 g would reach 1 g starch. Use
+      thinly. Contains malt extract and yeast from barley/wheat unless labelled
+      gluten-free; check the jar. Ideal Nutrition Step 1 does not list yeast
+      extract; Phase 2 allow is portion-based from AFCD.
+    sources:
+      - title: FSANZ AFCD Release 3 — spread, yeast, vegemite
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+      - title: Weight Loss Resources AU — AFCD Vegemite nutrient profile
+        url: https://www.weightloss.com.au/food-nutrition-tables/food/spread-yeast-vegemite-f008785/
+      - title: Ideal Nutrition — CSID management guide
+        url: https://www.idealnutrition.com.au/csid-how-to-manage-sucrase-isomaltase-deficiency/
   - name: Red wine (dry)
     group: other
     status: good

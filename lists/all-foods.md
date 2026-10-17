@@ -209,6 +209,7 @@ Source: [English — SID in Australia](https://www.drcarolynenglish.com/post/wha
 | Unsweetened lactose-free milk | Good | Milk and milk products | — | — |
 | Unsweetened nut milk | Good | Milk and milk products | — | — |
 | Unsweetened soy milk | Good | Milk and milk products | — | — |
+| Vegemite | Good | Other | — | AFCD R3 “spread, yeast, vegemite” — 0 g sucrose, 1.6 g maltose, 9.3 g starch per 100 g (starch above the ≤1 g/100 g low band). A typical ~5 g scrape is ~0.5 g starch and ~0.08 g maltose; about 11 g would reach 1 g starch. Use thinly. Contains malt extract and yeast from barley/wheat unless labelled gluten-free; check the jar. Ideal Nutrition Step 1 does not list yeast extract; Phase 2 allow is portion-based from AFCD. |
 | Walnut | Bad | Nuts and seeds | sucrose | English Table 4 — 2.7 g sucrose/100 g; ~37 g for 1 g sucrose. |
 | Watercress | Good | Vegetables | — | — |
 | Watermelon | Bad | Fruits | sucrose | Not on English Table 1. AFCD R3 peeled raw 2.2 g sucrose, 0.3 g starch. Table 3 — about ¼ cup diced for ~1 g sucrose. |
@@ -221,4 +222,4 @@ Source: [English — SID in Australia](https://www.drcarolynenglish.com/post/wha
 | Worcestershire sauce | Bad | Other | sucrose, maltose | AU Lea & Perrins — malt vinegar (barley), molasses, and sugar; 18.8 g sugars per 100 mL (~0.9 g sugars per 5 mL teaspoon). Above the 1 g sucrose/100 g low band; malt vinegar is a maltose/grain concern. Ideal Nutrition Step 1 avoids added sugars. Skip in stew, or use a homemade mix of spirit vinegar, anchovy, tamarind, garlic, and spices without sugar or molasses. |
 | Zucchini | Good | Vegetables | — | Green-skin and golden. English Table 2. AFCD R3 0 g sucrose, 0 g starch. Ideal Nutrition listed all squash as avoid. |
 
-**Total:** 212 foods (137 good, 75 bad)
+**Total:** 213 foods (138 good, 75 bad)

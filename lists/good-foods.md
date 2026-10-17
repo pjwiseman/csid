@@ -76,4 +76,5 @@ Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 - Shirataki noodles, konjac flour (starch-free substitutes for pasta and grain flour)
 - Mustard (wholegrain, Dijon) — plain only; check labels for added sugar or starch
 - Gluten-free soy sauce — wheat-free; check for added sugar
+- Vegemite — thin scrape (~5 g); starch is high per 100 g but low per typical serve
 - Red wine (dry) — stew cooking; avoid sweet or fortified wine

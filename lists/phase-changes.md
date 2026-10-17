@@ -69,10 +69,11 @@ Not on the Phase 1 list under this name (new cultivar splits, Australian Table 1
 | Swede | Good | Vegetables |
 | Tahini | Good | Nuts and seeds |
 | Tomato paste (plain) | Good | Vegetables |
+| Vegemite | Good | Other |
 | Watermelon | Bad | Fruits |
 | Wax jambu | Good | Fruits |
 | Wheat flour (thickener) | Bad | Grains |
 | White onion | Good | Vegetables |
 | Worcestershire sauce | Bad | Other |
 
-**50** added.
+**51** added.
