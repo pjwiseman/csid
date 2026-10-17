@@ -10,10 +10,13 @@ meta:
   note: >
     Phase 2 uses Australian food-composition data (English et al., AUSNUT 2023 framework;
     sucrose/maltose/starch verified from FSANZ AFCD Release 3). Foods with ≤1 g sucrose AND
-    ≤1 g starch per 100 g are treated as allow. Ideal Nutrition Step 1 elimination remains
-    the historical baseline; overseas CSID lists often differ because they use US composition.
-    Table 3–5 foods above the per-100 g low threshold stay avoid unless a defined portion
-    is being tested. Individual enzyme activity, meal load, and FODMAPs still matter.
+    ≤1 g starch per 100 g are treated as allow. English also requires portion load: if the
+    amount typically eaten provides ≤1 g sucrose and ≤1 g starch (e.g. garlic clove, ~1 stock
+    cube), treat as allow with the defined portion in notes. Table 3–5 foods above the
+    per-100 g low threshold stay avoid unless a defined portion is being tested. Ideal
+    Nutrition Step 1 elimination remains the historical baseline; overseas CSID lists often
+    differ because they use US composition. Individual enzyme activity, meal load, and
+    FODMAPs still matter.
   research_sources:
     - title: English — What can I eat with SID in Australia (primary for Australia, Phase 2)
       url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
@@ -1010,9 +1013,9 @@ foods:
       Homemade from beef bones/meat, water, salt, and allowed herbs/veg — English
       treats plain meat as negligible sucrose and starch. USDA home-prepared beef
       stock ~1.2 g carbohydrate and 0.54 g sugars per 100 g (sucrose/starch not
-      reported; likely from simmered veg). AU stock cubes/powders (e.g. Massel)
-      often list maize maltodextrin and cane sugar — treat those as avoid. Carton
-      stocks need a label check for sugar, maltodextrin, starch, or flour.
+      reported; likely from simmered veg). Commercial cubes/powder: see Beef stock
+      cubes and powder (allow at directed cooking amounts). Carton stocks still
+      need a label check for sugar, maltodextrin, starch, or flour.
     sources:
       - title: English — SID in Australia
         url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
@@ -1020,6 +1023,27 @@ foods:
         url: https://fdc.nal.usda.gov/food-details/172883/nutrients
       - title: CSID Cares — Reading Food Labels
         url: https://www.csidcares.org/treatment/reading-food-labels/
+  - name: Beef stock cubes and powder
+    group: meat
+    status: good
+    notes: >-
+      AFCD R3 “Stock, dry powder or cube” 4.1 g sucrose, 18.2 g starch per 100 g
+      dry — both English higher (>2 g). Apply English garlic principle: classify
+      the amount eaten, not 100 g of concentrate. One cube ≈5 g dry → ~0.2 g
+      sucrose, ~0.9 g starch (both ≤1 g). Starch-limiting ~1 g portion ≈5.5 g dry
+      (~1 cube). Massel powder as directed (1 heaped tsp / 1 L) is lower still when
+      prepared. Allow at directed/cooking amounts; liberal multi-tsp powder in one
+      personal serve can exceed. Brands vary — label-check if using more than
+      ~1 cube or 1 tsp.
+    sources:
+      - title: English — SID in Australia (portion vs per 100 g)
+        url: https://www.drcarolynenglish.com/post/what-can-i-eat-with-sucrase-isomaltase-deficiency-in-australia
+      - title: AFCD R3 — Stock, dry powder or cube (sucrose 4.1 g, starch 18.2 g / 100 g)
+        url: https://www.foodstandards.gov.au/science-data/food-nutrient-databases/afcd/data-files
+      - title: Massel 7's Stock Cubes Beef Style — prep and NIP
+        url: https://massel.com/wp-content/uploads/2019/12/MASSEL-7s-Beef-Style-JUN-21.pdf
+      - title: Massel Retail Stock Powder Beef Style — prep and NIP
+        url: https://massel.com/wp-content/uploads/2019/12/Retail-Stock-Powder-Beef-JUN-21.pdf
   - name: Pork
     group: meat
     status: good

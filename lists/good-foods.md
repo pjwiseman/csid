@@ -47,7 +47,8 @@ Fresh, frozen, or canned **without** added sauces, butter, or margarine:
 ## Meat and meat substitutes
 
 - Lamb, beef, pork, pork rind, wild game
-- Beef broth (plain homemade) — not stock cubes with maltodextrin or sugar
+- Beef broth (plain homemade)
+- Beef stock cubes and powder — ~1 cube or 1 tsp powder / directed prep (AFCD dry is high; portion load ≤1 g)
 - Poultry: chicken, duck, turkey
 - Fish, shellfish
 - Plain eggs

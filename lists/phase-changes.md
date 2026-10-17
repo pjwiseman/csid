@@ -30,6 +30,7 @@ Not on the Phase 1 list under this name (new cultivar splits, Australian Table 1
 | Bamboo shoot | Good | Vegetables |
 | Bean sprouts | Good | Vegetables |
 | Beef broth (plain homemade) | Good | Meat and meat substitutes |
+| Beef stock cubes and powder | Good | Meat and meat substitutes |
 | Bitter melon | Good | Vegetables |
 | Broccolini | Good | Vegetables |
 | Button squash | Good | Vegetables |
@@ -76,4 +77,4 @@ Not on the Phase 1 list under this name (new cultivar splits, Australian Table 1
 | White onion | Good | Vegetables |
 | Worcestershire sauce | Bad | Other |
 
-**51** added.
+**52** added.

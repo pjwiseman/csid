@@ -24,7 +24,8 @@ Source: [English — SID in Australia](https://www.drcarolynenglish.com/post/wha
 | Barley | Bad | Grains | maltose, starch | — |
 | Bean sprouts | Good | Vegetables | — | English Table 2. AFCD R3 0 g sucrose, 0.6 g starch. |
 | Beef | Good | Meat and meat substitutes | — | — |
-| Beef broth (plain homemade) | Good | Meat and meat substitutes | — | Homemade from beef bones/meat, water, salt, and allowed herbs/veg — English treats plain meat as negligible sucrose and starch. USDA home-prepared beef stock ~1.2 g carbohydrate and 0.54 g sugars per 100 g (sucrose/starch not reported; likely from simmered veg). AU stock cubes/powders (e.g. Massel) often list maize maltodextrin and cane sugar — treat those as avoid. Carton stocks need a label check for sugar, maltodextrin, starch, or flour. |
+| Beef broth (plain homemade) | Good | Meat and meat substitutes | — | Homemade from beef bones/meat, water, salt, and allowed herbs/veg — English treats plain meat as negligible sucrose and starch. USDA home-prepared beef stock ~1.2 g carbohydrate and 0.54 g sugars per 100 g (sucrose/starch not reported; likely from simmered veg). Commercial cubes/powder: see Beef stock cubes and powder (allow at directed cooking amounts). Carton stocks still need a label check for sugar, maltodextrin, starch, or flour. |
+| Beef stock cubes and powder | Good | Meat and meat substitutes | — | AFCD R3 “Stock, dry powder or cube” 4.1 g sucrose, 18.2 g starch per 100 g dry — both English higher (>2 g). Apply English garlic principle: classify the amount eaten, not 100 g of concentrate. One cube ≈5 g dry → ~0.2 g sucrose, ~0.9 g starch (both ≤1 g). Starch-limiting ~1 g portion ≈5.5 g dry (~1 cube). Massel powder as directed (1 heaped tsp / 1 L) is lower still when prepared. Allow at directed/cooking amounts; liberal multi-tsp powder in one personal serve can exceed. Brands vary — label-check if using more than ~1 cube or 1 tsp. |
 | Beetroot | Bad | Vegetables | sucrose | AFCD R3 fresh purple peeled raw 9.2 g sucrose, 0 g starch (baked 11.2 g). English Table 3 — 1–2 thin slices for ~1 g sucrose. |
 | Bell pepper (green, red, yellow) | Good | Vegetables | — | Capsicum. English Table 2. AFCD R3 green/red/yellow raw 0 g sucrose, 0 g starch. |
 | Bitter melon | Good | Vegetables | — | English Table 2. AFCD R3 fresh raw 0 g sucrose, 0.1 g starch. |
@@ -222,4 +223,4 @@ Source: [English — SID in Australia](https://www.drcarolynenglish.com/post/wha
 | Worcestershire sauce | Bad | Other | sucrose, maltose | AU Lea & Perrins — malt vinegar (barley), molasses, and sugar; 18.8 g sugars per 100 mL (~0.9 g sugars per 5 mL teaspoon). Above the 1 g sucrose/100 g low band; malt vinegar is a maltose/grain concern. Ideal Nutrition Step 1 avoids added sugars. Skip in stew, or use a homemade mix of spirit vinegar, anchovy, tamarind, garlic, and spices without sugar or molasses. |
 | Zucchini | Good | Vegetables | — | Green-skin and golden. English Table 2. AFCD R3 0 g sucrose, 0 g starch. Ideal Nutrition listed all squash as avoid. |
 
-**Total:** 213 foods (138 good, 75 bad)
+**Total:** 214 foods (139 good, 75 bad)
